@@ -1,12 +1,11 @@
 {
   "files": {
-    "main.css": "/faucet/static/css/main.7bd51146.css",
-    "main.js": "/faucet/static/js/main.8534c790.js",
-    "static/js/27.1204b4a9.chunk.js": "/faucet/static/js/27.1204b4a9.chunk.js",
-    "index.html": "/faucet/index.html"
+    "main.css": "/tst-faucet-app.github.io/static/css/main.70c5b67b.css",
+    "main.js": "/tst-faucet-app.github.io/static/js/main.e524e4c0.js",
+    "index.html": "/tst-faucet-app.github.io/index.html"
   },
   "entrypoints": [
-    "static/css/main.7bd51146.css",
-    "static/js/main.8534c790.js"
+    "static/css/main.70c5b67b.css",
+    "static/js/main.e524e4c0.js"
   ]
 }
