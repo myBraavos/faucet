@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Faucet",
+  "name": "Faucet - Brought to you by Braavos",
   "icons": [
     {
       "src": "favicon.ico",
@@ -8,12 +8,12 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "/images/logo128.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "128x128 64x64 32x32 24x24 16x16"
     },
     {
-      "src": "logo512.png",
+      "src": "/images/logo512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
