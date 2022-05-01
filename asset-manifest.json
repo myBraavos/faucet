@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/faucet/static/css/main.70c5b67b.css",
-    "main.js": "/faucet/static/js/main.b0cb4f25.js",
+    "main.js": "/faucet/static/js/main.4be9c194.js",
     "index.html": "/faucet/index.html"
   },
   "entrypoints": [
     "static/css/main.70c5b67b.css",
-    "static/js/main.b0cb4f25.js"
+    "static/js/main.4be9c194.js"
   ]
 }
