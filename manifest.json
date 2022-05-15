@@ -23,5 +23,5 @@
   "theme_color": "#000000",
   "background_color": "#ffffff",
   "mainnet": true,
-  "enforce_fees": false
+  "enforce_fees": true
 }
