@@ -22,6 +22,6 @@
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff",
-  "mainnet": true,
-  "enforce_fees": true
+  "mainnet": false,
+  "enforce_fees": false
 }
