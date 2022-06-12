@@ -23,5 +23,23 @@
   "theme_color": "#000000",
   "background_color": "#ffffff",
   "mainnet": false,
-  "enforce_fees": true
+  "enforce_fees": true,
+  "recovery_params": {
+    "goerli-alpha": {
+      "impl_address": {
+        "braavos": [
+          "0x2c1824892b36134b59da621a07a731bc1f8ebaabf3dbb7a487c7bbebe017145"
+        ],
+        "argent": [
+          "0x3e327de1c40540b98d05cbcb13552008e36f0ec8d61d46956d2f9752c294328"
+        ]
+      },
+      "proxy_hash": {
+        "braavos": [],
+        "argent": [
+          "0x25ec026985a3bf9d0cc1fe17326b245dfdc3ff89b8fde106542a3ea56c5a918"
+        ]
+      }
+    }
+  }
 }
