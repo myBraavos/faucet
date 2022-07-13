@@ -26,7 +26,7 @@
     "enforce_fees": true,
     "mainnet_min_ver": {
         "contract_min_ver": "0x1010102",
-        "extension_min_ver": "999.999.999"
+        "extension_min_ver": "2.14.0"
     },
     "recovery_params": {
         "goerli-alpha": {
