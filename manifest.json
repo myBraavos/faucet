@@ -1,50 +1,64 @@
 {
-  "short_name": "Faucet",
-  "name": "TST Foucet - brought to you by Braavos",
-  "icons": [
-    {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+    "short_name": "Faucet",
+    "name": "TST Foucet - brought to you by Braavos",
+    "icons": [
+        {
+            "src": "favicon.ico",
+            "sizes": "64x64 32x32 24x24 16x16",
+            "type": "image/x-icon"
+        },
+        {
+            "src": "/images/logo128.png",
+            "type": "image/png",
+            "sizes": "128x128 64x64 32x32 24x24 16x16"
+        },
+        {
+            "src": "/images/logo512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#ffffff",
+    "mainnet": false,
+    "enforce_fees": true,
+    "mainnet_min_ver": {
+        "contract_min_ver": "0x1010102",
+        "extension_min_ver": "2.13.0"
     },
-    {
-      "src": "/images/logo128.png",
-      "type": "image/png",
-      "sizes": "128x128 64x64 32x32 24x24 16x16"
-    },
-    {
-      "src": "/images/logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
+    "recovery_params": {
+        "goerli-alpha": {
+            "impl_address": {
+                "braavos": [
+                    "0x2c1824892b36134b59da621a07a731bc1f8ebaabf3dbb7a487c7bbebe017145",
+                    "0x222f474bc7de126c517bf7954cb421932f4fa16de4666971df5b1154ea0ed37"
+                ],
+                "argent": [
+                    "0x3e327de1c40540b98d05cbcb13552008e36f0ec8d61d46956d2f9752c294328"
+                ]
+            },
+            "proxy_hash": {
+                "braavos": [],
+                "argent": [
+                    "0x25ec026985a3bf9d0cc1fe17326b245dfdc3ff89b8fde106542a3ea56c5a918"
+                ]
+            }
+        },
+        "mainnet-alpha": {
+            "impl_address": {
+                "braavos": [],
+                "argent": [
+                    "0x3e327de1c40540b98d05cbcb13552008e36f0ec8d61d46956d2f9752c294328"
+                ]
+            },
+            "proxy_hash": {
+                "braavos": [],
+                "argent": [
+                    "0x25ec026985a3bf9d0cc1fe17326b245dfdc3ff89b8fde106542a3ea56c5a918"
+                ]
+            }
+        }
     }
-  ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff",
-  "mainnet": false,
-  "enforce_fees": true,
-  "mainnet_min_ver": {
-    "contract_min_ver": "0x1010102",
-    "extension_min_ver": "2.13.0"
-  },
-  "recovery_params": {
-    "goerli-alpha": {
-      "impl_address": {
-        "braavos": [
-          "0x2c1824892b36134b59da621a07a731bc1f8ebaabf3dbb7a487c7bbebe017145",
-          "0x222f474bc7de126c517bf7954cb421932f4fa16de4666971df5b1154ea0ed37"
-        ],
-        "argent": [
-          "0x3e327de1c40540b98d05cbcb13552008e36f0ec8d61d46956d2f9752c294328"
-        ]
-      },
-      "proxy_hash": {
-        "braavos": [],
-        "argent": [
-          "0x25ec026985a3bf9d0cc1fe17326b245dfdc3ff89b8fde106542a3ea56c5a918"
-        ]
-      }
-    }
-  }
 }
