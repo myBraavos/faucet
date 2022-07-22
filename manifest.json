@@ -28,6 +28,7 @@
         "contract_min_ver": "0x1010102",
         "extension_min_ver": "2.14.1"
     },
+    "mainnet_platforms": ["android", "web"],
     "recovery_params": {
         "goerli-alpha": {
             "impl_address": {
