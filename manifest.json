@@ -186,14 +186,16 @@
           "jedi_swap_address": {
             "addresses": {
               "goerli-alpha": [
-                "0x01ea2f12a70ad6a052f99a49dace349996a8e968a0d6d4e9ec34e0991e6d5e5e"
+                "0x01ea2f12a70ad6a052f99a49dace349996a8e968a0d6d4e9ec34e0991e6d5e5e",
+                "0x012b063b60553c91ed237d8905dff412fba830c5716b17821063176c6c073341"
               ]
             }
           },
           "jedi_swap_zap_address": {
             "addresses": {
               "goerli-alpha": [
-                "0x0263acca23357479031157e30053fe10598077f24f427ac1b1de85487f5cd124"
+                "0x0263acca23357479031157e30053fe10598077f24f427ac1b1de85487f5cd124",
+                "0x07e4a2e2ad496c7572228d922a50e656b5791a6f09818fb709e697f460f55735"
               ]
             }
           }
