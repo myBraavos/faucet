@@ -1,305 +1,351 @@
 {
-    "short_name": "Faucet",
-    "name": "TST Foucet - brought to you by Braavos",
-    "icons": [
-        {
-            "src": "favicon.ico",
-            "sizes": "64x64 32x32 24x24 16x16",
-            "type": "image/x-icon"
-        },
-        {
-            "src": "/images/logo128.png",
-            "type": "image/png",
-            "sizes": "128x128 64x64 32x32 24x24 16x16"
-        },
-        {
-            "src": "/images/logo512.png",
-            "type": "image/png",
-            "sizes": "512x512"
-        }
-    ],
-    "start_url": ".",
-    "display": "standalone",
-    "theme_color": "#000000",
-    "background_color": "#ffffff",
-    "mainnet": false,
-    "enforce_fees": true,
-    "mainnet_min_ver": {
-        "contract_min_ver": "0x1010102",
-        "extension_min_ver": "2.14.1"
+  "short_name": "Faucet",
+  "name": "TST Foucet - brought to you by Braavos",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
     },
-    "mainnet_platforms": ["android", "web", "ios"],
-    "recovery_params": {
-        "goerli-alpha": {
-            "impl_address": {
-                "braavos": [
-                    "0x2c1824892b36134b59da621a07a731bc1f8ebaabf3dbb7a487c7bbebe017145",
-                    "0x222f474bc7de126c517bf7954cb421932f4fa16de4666971df5b1154ea0ed37"
-                ],
-                "argent": [
-                    "0x3e327de1c40540b98d05cbcb13552008e36f0ec8d61d46956d2f9752c294328"
-                ]
-            },
-            "proxy_hash": {
-                "braavos": [],
-                "argent": [
-                    "0x25ec026985a3bf9d0cc1fe17326b245dfdc3ff89b8fde106542a3ea56c5a918"
-                ]
-            }
-        },
-        "mainnet-alpha": {
-            "impl_address": {
-                "braavos": [
-                    "0x2c1824892b36134b59da621a07a731bc1f8ebaabf3dbb7a487c7bbebe017145",
-                    "0x222f474bc7de126c517bf7954cb421932f4fa16de4666971df5b1154ea0ed37"
-                ],
-                "argent": [
-                    "0x3e327de1c40540b98d05cbcb13552008e36f0ec8d61d46956d2f9752c294328"
-                ]
-            },
-            "proxy_hash": {
-                "braavos": [],
-                "argent": [
-                    "0x25ec026985a3bf9d0cc1fe17326b245dfdc3ff89b8fde106542a3ea56c5a918"
-                ]
-            }
-        }
+    {
+      "src": "/images/logo128.png",
+      "type": "image/png",
+      "sizes": "128x128 64x64 32x32 24x24 16x16"
     },
-    "swap": {
-      "goerli-alpha": [
-        {
-          "id": "myswap",
-          "contract": "0x018a439bcbb1b3535a6145c1dc9bc6366267d923f60a84bd0c7618f33c81d334"
-        }
-      ],
-      "mainnet-alpha": [
-        {
-          "id": "myswap",
-          "contract": "0x10884171baf1914edc28d7afb619b40a4051cfae78a094a55d230f19e944a28"
-        }
-      ]
-    },
-    "known_protocols": {
-      "MY_SWAP": {
-        "displayName": "mySwap",
-        "hostnames": [
-          "www.myswap.xyz"
+    {
+      "src": "/images/logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "mainnet": false,
+  "enforce_fees": true,
+  "mainnet_min_ver": {
+    "contract_min_ver": "0x1010102",
+    "extension_min_ver": "2.14.1"
+  },
+  "mainnet_platforms": ["android", "web", "ios"],
+  "recovery_params": {
+    "goerli-alpha": {
+      "impl_address": {
+        "braavos": [
+          "0x2c1824892b36134b59da621a07a731bc1f8ebaabf3dbb7a487c7bbebe017145",
+          "0x222f474bc7de126c517bf7954cb421932f4fa16de4666971df5b1154ea0ed37"
         ],
-        "contracts": {
-          "myswap_address_legacy": {
-            "addresses": {
-              "goerli-alpha": [
-                "0x71faa7d6c3ddb081395574c5a6904f4458ff648b66e2123b877555d9ae0260e"
-              ]
-            }
-          },
-          "myswap_address_2": {
-            "addresses": {
-              "goerli-alpha": [
-                "0x018a439bcbb1b3535a6145c1dc9bc6366267d923f60a84bd0c7618f33c81d334"
-              ],
-              "mainnet-alpha": [
-                "0x018a439bcbb1b3535a6145c1dc9bc6366267d923f60a84bd0c7618f33c81d334",
-                "0x10884171baf1914edc28d7afb619b40a4051cfae78a094a55d230f19e944a28"
-              ]
-            }
-          },
-          "myswap_liquidity_tokens": {
-            "addresses": {
-              "goerli-alpha": [
-                "0x895a214b06582050056ad5dd29dd8086a82d9159f023ab4d21d6fa1a2985eb",
-                "0x1550ce85c20f616af7eec81b3a1c4d4cc2ca99140e68b8092256bdff15e7df9",
-                "0x21312730d9bac8678adfaf52f7a4471decbca5b502ac05c223e627e78c7087a"
-              ],
-              "mainnet-alpha": [
-                "0x22b05f9396d2c48183f6deaf138a57522bcc8b35b67dee919f76403d1783136",
-                "0x7c662b10f409d7a0a69c8da79b397fd91187ca5f6230ed30effef2dceddc5b3"
-              ]
-            }
-          }
-        }
+        "argent": ["0x3e327de1c40540b98d05cbcb13552008e36f0ec8d61d46956d2f9752c294328"]
       },
-      "ASTRALY": {
-        "displayName": "Astraly",
-        "hostnames": [
-          "testnet.astraly.xyz",
-          "astraly.xyz"
+      "proxy_hash": {
+        "braavos": [],
+        "argent": ["0x25ec026985a3bf9d0cc1fe17326b245dfdc3ff89b8fde106542a3ea56c5a918"]
+      }
+    },
+    "mainnet-alpha": {
+      "impl_address": {
+        "braavos": [
+          "0x2c1824892b36134b59da621a07a731bc1f8ebaabf3dbb7a487c7bbebe017145",
+          "0x222f474bc7de126c517bf7954cb421932f4fa16de4666971df5b1154ea0ed37"
         ],
-        "contracts": {
-          "astraly_address": {
-            "addresses": {
-              "goerli-alpha": [
-                "0x02810b322f1709382244cebec85e47098d2b913e910ae5d3650aaa46ba6526fe"
-              ]
-            }
-          },
-          "astraly_pool_address": {
-            "addresses": {
-              "goerli-alpha": [
-                "0x5ef67d8c38b82ba699f206bf0db59f1828087a710bad48cc4d51a2b0da4c29"
-              ]
-            }
-          }
-        }
+        "argent": ["0x3e327de1c40540b98d05cbcb13552008e36f0ec8d61d46956d2f9752c294328"]
       },
-      "STARKGATE": {
-        "displayName": "StarkGate",
-        "hostnames": [
-          "goerli.starkgate.starknet.io",
-          "starkgate.starknet.io"
+      "proxy_hash": {
+        "braavos": [],
+        "argent": ["0x25ec026985a3bf9d0cc1fe17326b245dfdc3ff89b8fde106542a3ea56c5a918"]
+      }
+    }
+  },
+  "swap": {
+    "goerli-alpha": [
+      {
+        "id": "myswap",
+        "contract": "0x018a439bcbb1b3535a6145c1dc9bc6366267d923f60a84bd0c7618f33c81d334",
+        "pools": {
+          "1": {
+            "poolName": "USDC/ETH",
+            "poolNameFelt": 401618595503549828499344564234310728,
+            "tokenAAddress": "0x5a643907b9a4bc6a55e9069c4fd5fd1f5c79a22470690f75556c4736e34426",
+            "tokenAReserves": [199999978, 0],
+            "tokenBAddress": "0x49d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7",
+            "tokenBReserves": [8000001100000000000, 0],
+            "feePercentage": 300,
+            "cfmm": 0,
+            "shares": [40000000400000, 0]
+          },
+          "2": {
+            "poolName": "DAI/ETH",
+            "poolNameFelt": 1568822638685741512770720031396936,
+            "tokenAAddress": "0x3e85bfbb8e2a42b7bead9e88e9a1b19dbccf661471061807292120462396ec9",
+            "tokenAReserves": [1646872165698441777277, 0],
+            "tokenBAddress": "0x49d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7",
+            "tokenBReserves": [10702743842828899532, 0],
+            "feePercentage": 300,
+            "cfmm": 0,
+            "shares": [132759263823603922185, 0]
+          },
+          "3": {
+            "poolName": "USDC/DAI",
+            "poolNameFelt": 401618595503549828499344564234240329,
+            "tokenAAddress": "0x5a643907b9a4bc6a55e9069c4fd5fd1f5c79a22470690f75556c4736e34426",
+            "tokenAReserves": [990129, 0],
+            "tokenBAddress": "0x3e85bfbb8e2a42b7bead9e88e9a1b19dbccf661471061807292120462396ec9",
+            "tokenBReserves": [10100000000000000000, 0],
+            "feePercentage": 300,
+            "cfmm": 0,
+            "shares": [3162277660168, 0]
+          },
+          "numberOfPools": 3
+        },
+        "tokens": [
+          "0x3e85bfbb8e2a42b7bead9e88e9a1b19dbccf661471061807292120462396ec9",
+          "0x5a643907b9a4bc6a55e9069c4fd5fd1f5c79a22470690f75556c4736e34426",
+          "0x49d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7"
         ]
-      },
-      "BRIQ": {
-        "displayName": "Briq",
-        "hostnames": [
-          "briq.construction"
-        ],
-        "contracts": {
-          "briq_address": {
-            "implements": [
-              "ERC721"
-            ],
-            "addresses": {
-              "goerli-alpha": [
-                "0x0266b1276d23ffb53d99da3f01be7e29fa024dd33cd7f7b1eb7a46c67891c9d0"
-              ]
-            }
+      }
+    ],
+    "mainnet-alpha": [
+      {
+        "id": "myswap",
+        "contract": "0x10884171baf1914edc28d7afb619b40a4051cfae78a094a55d230f19e944a28",
+        "pools": {
+          "1": {
+            "poolName": "ETH/USDC",
+            "poolNameFelt": 401618595503549827346708847389787203,
+            "tokenAAddress": "0x49d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7",
+            "tokenAReserves": [3208540783209050828, 0],
+            "tokenBAddress": "0x53c91253bc9682c04929ca02ed00b3e423f6710d2ee7e0d5ebb06f3ecf368a8",
+            "tokenBReserves": [5352230735, 0],
+            "feePercentage": 300,
+            "cfmm": 0,
+            "shares": [129987041685079, 0]
+          },
+          "2": {
+            "poolName": "DAI/ETH",
+            "poolNameFelt": 1568822638685741512770720031396936,
+            "tokenAAddress": "0xda114221cb83fa859dbdb4c44beeaa0bb37c7537ad5ae66fe5e0efd20e6eb3",
+            "tokenAReserves": [9678363624820805462, 0],
+            "tokenBAddress": "0x49d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7",
+            "tokenBReserves": [6200000000000000, 0],
+            "feePercentage": 300,
+            "cfmm": 0,
+            "shares": [244948974278317809, 0]
+          },
+          "3": {
+            "poolName": "WBTC/USDC",
+            "poolNameFelt": 102814360448908756131505221092653614147,
+            "tokenAAddress": "0x3fe2b97c1fd336e750087d68b9b867997fd64a2661ff3ca5a7c771641e8e7ac",
+            "tokenAReserves": [3208540783209050828, 0],
+            "tokenBAddress": "0x53c91253bc9682c04929ca02ed00b3e423f6710d2ee7e0d5ebb06f3ecf368a8",
+            "tokenBReserves": [5352230735, 0],
+            "feePercentage": 300,
+            "cfmm": 0,
+            "shares": [129987041685079, 0]
+          },
+          "numberOfPools": 3
+        },
+        "tokens": [
+          "0x53c91253bc9682c04929ca02ed00b3e423f6710d2ee7e0d5ebb06f3ecf368a8",
+          "0xda114221cb83fa859dbdb4c44beeaa0bb37c7537ad5ae66fe5e0efd20e6eb3",
+          "0x49d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7",
+          "0x3fe2b97c1fd336e750087d68b9b867997fd64a2661ff3ca5a7c771641e8e7ac"
+        ]
+      }
+    ]
+  },
+  "known_protocols": {
+    "MY_SWAP": {
+      "displayName": "mySwap",
+      "hostnames": ["www.myswap.xyz"],
+      "contracts": {
+        "myswap_address_legacy": {
+          "addresses": {
+            "goerli-alpha": [
+              "0x71faa7d6c3ddb081395574c5a6904f4458ff648b66e2123b877555d9ae0260e"
+            ]
           }
-        }
-      },
-      "ASPECT": {
-        "displayName": "Aspect",
-        "hostnames": [
-          "testnet.aspect.co",
-          "aspect.co"
-        ],
-        "contracts": {
-          "aspect_collection": {
-            "implements": [
-              "ERC721"
+        },
+        "myswap_address_2": {
+          "addresses": {
+            "goerli-alpha": [
+              "0x018a439bcbb1b3535a6145c1dc9bc6366267d923f60a84bd0c7618f33c81d334"
             ],
-            "addresses": {
-              "goerli-alpha": [
-                "0x04e34321e0bce0e4ff8ff0bcb3a9a030d423bca29a9d99cbcdd60edb9a2bf03a",
-                "0x03090623ea32d932ca1236595076b00702e7d860696faf300ca9eb13bfe0a78c"
-              ],
-              "mainnet-alpha": [
-                "0x03090623ea32d932ca1236595076b00702e7d860696faf300ca9eb13bfe0a78c"
-              ]
-            }
-          },
-          "aspect_operator": {
-            "addresses": {
-              "goerli-alpha": [
-                "0x37c320cf53f24747cb6afd1c23d0bf9ca33dcf8840764df11f8f8c8c0cd685c",
-                "0x05841326c67a6806308d60c74d69e8a6895a254689f2e01a2f3c133e6ce733c5",
-                "0x006fcf30a53fdc33c85ab428d6c481c5d241f1de403009c4e5b66aeaf3edc890"
-              ],
-              "mainnet-alpha": [
-                "0x02a92f0f860bf7c63fb9ef42cff4137006b309e0e6e1484e42d0b5511959414d"
-                
-              ]
-            }
+            "mainnet-alpha": [
+              "0x018a439bcbb1b3535a6145c1dc9bc6366267d923f60a84bd0c7618f33c81d334",
+              "0x10884171baf1914edc28d7afb619b40a4051cfae78a094a55d230f19e944a28"
+            ]
           }
-        }
-      },
-      "JEDI_SWAP": {
-        "displayName": "JediSwap",
-        "hostnames": [
-          "app.testnet.jediswap.xyz",
-          "app.jediswap.xyz"
-        ],
-        "contracts": {
-          "jedi_swap_address": {
-            "addresses": {
-              "goerli-alpha": [
-                "0x01ea2f12a70ad6a052f99a49dace349996a8e968a0d6d4e9ec34e0991e6d5e5e",
-                "0x012b063b60553c91ed237d8905dff412fba830c5716b17821063176c6c073341"
-              ]
-            }
-          },
-          "jedi_swap_zap_address": {
-            "addresses": {
-              "goerli-alpha": [
-                "0x0263acca23357479031157e30053fe10598077f24f427ac1b1de85487f5cd124",
-                "0x07e4a2e2ad496c7572228d922a50e656b5791a6f09818fb709e697f460f55735"
-              ]
-            }
-          }
-        }
-      },
-      "MINT_SQUARE": {
-        "displayName": "MintSquare",
-        "hostnames": [
-          "mintsquare.io"
-        ],
-        "contracts": {
-          "mintsquare_collection": {
-            "implements": [
-              "ERC721"
+        },
+        "myswap_liquidity_tokens": {
+          "addresses": {
+            "goerli-alpha": [
+              "0x895a214b06582050056ad5dd29dd8086a82d9159f023ab4d21d6fa1a2985eb",
+              "0x1550ce85c20f616af7eec81b3a1c4d4cc2ca99140e68b8092256bdff15e7df9",
+              "0x21312730d9bac8678adfaf52f7a4471decbca5b502ac05c223e627e78c7087a"
             ],
-            "addresses": {
-              "goerli-alpha": [
-                "0x2f13075210b7252c826eafdc09d9d77ef272f582947f7adbd44ef79eae0062c"
-              ],
-              "mainnet-alpha": [
-                "0x07861c4e276294a7e859ff0ae2eec0c68300ad9cbb43219db907da9bad786488"
-              ]
-            }
-          },
-          "mintsquare_marketplace": {
-            "addresses": {
-              "goerli-alpha": [
-                "0x033f80aa81bdc938a0793a5bfc879b86c687b366744b16ee03caa68e204c4df2",
-                "0x05bc8cc601c5098e20e9d9d74e86cfb0ec737f6f3ac571914dbe4f74aa249786"
-              ],
-              "mainnet-alpha": [
-                "0x0713273b1982c3b870b963418843ff8cbdb8f92481cd7f663f0f0e1c94848833"
-              ]
-            }
-          },
-          "mintsquare_marketplace_manager": {
-            "addresses": {
-              "goerli-alpha": [
-                "0x0423c040595731d6c4a3127e8def5b32b94ea81da8c79c17759202fd7417797c"
-              ],
-              "mainnet-alpha": [
-                "0x0423c040595731d6c4a3127e8def5b32b94ea81da8c79c17759202fd7417797c"
-              ]
-            }
-          }
-        }
-      },
-      "PXLS": {
-        "displayName": "pxls",
-        "hostnames": [
-          "https://pxls.wtf/"
-        ],
-        "contracts": {
-          "pxls_erc721": {
-            "implements": [
-              "ERC721"
-            ],
-            "addresses": {
-              "goerli-alpha": [
-                "0x07ffe4bd0b457e10674a2842164b91fea646ed4027d3b606a0fcbf056a4c8827"
-              ],
-              "mainnet-alpha": [
-                "0x045963ea13d95f22b58a5f0662ed172278e6b420cded736f846ca9bde8ea476a"
-              ]
-            }
-          },
-          "pxls_drawer": {
-            "addresses": {
-              "goerli-alpha": [
-                "0x0621b85c17b616d3ad91eb8787f5cc18d44c3792564a77548a45bd65a7c32eb6"
-              ],
-              "mainnet-alpha": [
-                "0x03f91e81765e37ff745af38283bd6b9ffbb5c7b1be89c3544051ac3af7b51a8a"
-              ]
-            }
+            "mainnet-alpha": [
+              "0x22b05f9396d2c48183f6deaf138a57522bcc8b35b67dee919f76403d1783136",
+              "0x7c662b10f409d7a0a69c8da79b397fd91187ca5f6230ed30effef2dceddc5b3"
+            ]
           }
         }
       }
-   }
+    },
+    "ASTRALY": {
+      "displayName": "Astraly",
+      "hostnames": ["testnet.astraly.xyz", "astraly.xyz"],
+      "contracts": {
+        "astraly_address": {
+          "addresses": {
+            "goerli-alpha": [
+              "0x02810b322f1709382244cebec85e47098d2b913e910ae5d3650aaa46ba6526fe"
+            ]
+          }
+        },
+        "astraly_pool_address": {
+          "addresses": {
+            "goerli-alpha": [
+              "0x5ef67d8c38b82ba699f206bf0db59f1828087a710bad48cc4d51a2b0da4c29"
+            ]
+          }
+        }
+      }
+    },
+    "STARKGATE": {
+      "displayName": "StarkGate",
+      "hostnames": ["goerli.starkgate.starknet.io", "starkgate.starknet.io"]
+    },
+    "BRIQ": {
+      "displayName": "Briq",
+      "hostnames": ["briq.construction"],
+      "contracts": {
+        "briq_address": {
+          "implements": ["ERC721"],
+          "addresses": {
+            "goerli-alpha": [
+              "0x0266b1276d23ffb53d99da3f01be7e29fa024dd33cd7f7b1eb7a46c67891c9d0"
+            ]
+          }
+        }
+      }
+    },
+    "ASPECT": {
+      "displayName": "Aspect",
+      "hostnames": ["testnet.aspect.co", "aspect.co"],
+      "contracts": {
+        "aspect_collection": {
+          "implements": ["ERC721"],
+          "addresses": {
+            "goerli-alpha": [
+              "0x04e34321e0bce0e4ff8ff0bcb3a9a030d423bca29a9d99cbcdd60edb9a2bf03a",
+              "0x03090623ea32d932ca1236595076b00702e7d860696faf300ca9eb13bfe0a78c"
+            ],
+            "mainnet-alpha": [
+              "0x03090623ea32d932ca1236595076b00702e7d860696faf300ca9eb13bfe0a78c"
+            ]
+          }
+        },
+        "aspect_operator": {
+          "addresses": {
+            "goerli-alpha": [
+              "0x37c320cf53f24747cb6afd1c23d0bf9ca33dcf8840764df11f8f8c8c0cd685c",
+              "0x05841326c67a6806308d60c74d69e8a6895a254689f2e01a2f3c133e6ce733c5",
+              "0x006fcf30a53fdc33c85ab428d6c481c5d241f1de403009c4e5b66aeaf3edc890"
+            ],
+            "mainnet-alpha": [
+              "0x02a92f0f860bf7c63fb9ef42cff4137006b309e0e6e1484e42d0b5511959414d"
+            ]
+          }
+        }
+      }
+    },
+    "JEDI_SWAP": {
+      "displayName": "JediSwap",
+      "hostnames": ["app.testnet.jediswap.xyz", "app.jediswap.xyz"],
+      "contracts": {
+        "jedi_swap_address": {
+          "addresses": {
+            "goerli-alpha": [
+              "0x01ea2f12a70ad6a052f99a49dace349996a8e968a0d6d4e9ec34e0991e6d5e5e",
+              "0x012b063b60553c91ed237d8905dff412fba830c5716b17821063176c6c073341"
+            ]
+          }
+        },
+        "jedi_swap_zap_address": {
+          "addresses": {
+            "goerli-alpha": [
+              "0x0263acca23357479031157e30053fe10598077f24f427ac1b1de85487f5cd124",
+              "0x07e4a2e2ad496c7572228d922a50e656b5791a6f09818fb709e697f460f55735"
+            ]
+          }
+        }
+      }
+    },
+    "MINT_SQUARE": {
+      "displayName": "MintSquare",
+      "hostnames": ["mintsquare.io"],
+      "contracts": {
+        "mintsquare_collection": {
+          "implements": ["ERC721"],
+          "addresses": {
+            "goerli-alpha": [
+              "0x2f13075210b7252c826eafdc09d9d77ef272f582947f7adbd44ef79eae0062c"
+            ],
+            "mainnet-alpha": [
+              "0x07861c4e276294a7e859ff0ae2eec0c68300ad9cbb43219db907da9bad786488"
+            ]
+          }
+        },
+        "mintsquare_marketplace": {
+          "addresses": {
+            "goerli-alpha": [
+              "0x033f80aa81bdc938a0793a5bfc879b86c687b366744b16ee03caa68e204c4df2",
+              "0x05bc8cc601c5098e20e9d9d74e86cfb0ec737f6f3ac571914dbe4f74aa249786"
+            ],
+            "mainnet-alpha": [
+              "0x0713273b1982c3b870b963418843ff8cbdb8f92481cd7f663f0f0e1c94848833"
+            ]
+          }
+        },
+        "mintsquare_marketplace_manager": {
+          "addresses": {
+            "goerli-alpha": [
+              "0x0423c040595731d6c4a3127e8def5b32b94ea81da8c79c17759202fd7417797c"
+            ],
+            "mainnet-alpha": [
+              "0x0423c040595731d6c4a3127e8def5b32b94ea81da8c79c17759202fd7417797c"
+            ]
+          }
+        }
+      }
+    },
+    "PXLS": {
+      "displayName": "pxls",
+      "hostnames": ["https://pxls.wtf/"],
+      "contracts": {
+        "pxls_erc721": {
+          "implements": ["ERC721"],
+          "addresses": {
+            "goerli-alpha": [
+              "0x07ffe4bd0b457e10674a2842164b91fea646ed4027d3b606a0fcbf056a4c8827"
+            ],
+            "mainnet-alpha": [
+              "0x045963ea13d95f22b58a5f0662ed172278e6b420cded736f846ca9bde8ea476a"
+            ]
+          }
+        },
+        "pxls_drawer": {
+          "addresses": {
+            "goerli-alpha": [
+              "0x0621b85c17b616d3ad91eb8787f5cc18d44c3792564a77548a45bd65a7c32eb6"
+            ],
+            "mainnet-alpha": [
+              "0x03f91e81765e37ff745af38283bd6b9ffbb5c7b1be89c3544051ac3af7b51a8a"
+            ]
+          }
+        }
+      }
+    }
+  }
 }
