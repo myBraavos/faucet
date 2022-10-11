@@ -57,6 +57,15 @@
       }
     }
   },
+  "rpc_nodes": {
+    "mainnet-alpha": [
+      "https://starknet-mainnet.infura.io/v3/52da6761470b44e290101e03f237e71c",
+      "https://nd-696-905-717.p2pify.com/973dedb9047063473b0bf2ef85e620b4"
+    ],
+    "goerli-alpha": [
+      "https://starknet-goerli.infura.io/v3/52da6761470b44e290101e03f237e71c"
+    ]
+  },
   "swap": {
     "goerli-alpha": [
       {
