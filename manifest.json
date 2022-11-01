@@ -46,7 +46,7 @@
     },
     "goerli-alpha-2": {
       "impl_address": {
-        "braavos": [],
+        "braavos": ["0x2bf9a599389db1a4099dae0b6bc6e2963a4f1ddd36e5b894dfc696b4341588a"],
         "argent": []
       },
       "proxy_hash": {
