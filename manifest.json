@@ -61,9 +61,7 @@
       "impl_address": {
         "braavos": [
           "0x2c1824892b36134b59da621a07a731bc1f8ebaabf3dbb7a487c7bbebe017145",
-          "0x222f474bc7de126c517bf7954cb421932f4fa16de4666971df5b1154ea0ed37",
-          "0x69577e6756a99b584b5d1ce8e60650ae33b6e2b13541783458268f07da6b38a",
-          "0x2bf9a599389db1a4099dae0b6bc6e2963a4f1ddd36e5b894dfc696b4341588a"
+          "0x222f474bc7de126c517bf7954cb421932f4fa16de4666971df5b1154ea0ed37"
         ],
         "argent": ["0x3e327de1c40540b98d05cbcb13552008e36f0ec8d61d46956d2f9752c294328"]
       },
@@ -383,6 +381,29 @@
           }
         }
       }
+    },
+    "10K_SWAP": {
+      "displayName": "10KSwap",
+      "hostnames": [
+        "10kswap.com"
+      ],
+      "contracts": {
+        "10k_swap_address": {
+          "addresses": {
+            "goerli-alpha": [
+              "0x00975910cd99bc56bd289eaaa5cee6cd557f0ddafdb2ce6ebea15b158eb2c664"
+            ],
+            "mainnet-alpha": [
+              "0x07a6f98c03379b9513ca84cca1373ff452a7462a3b61598f0af5bb27ad7f76d1"
+            ]
+          }
+        }
+      }
     }
+  },
+  "max_fee_mul": {
+    "goerli-alpha": 3,
+    "goerli-alpha-2": 3,
+    "mainnet-alpha": 3
   }
 }
