@@ -48,6 +48,7 @@
     "goerli-alpha-2": {
       "impl_address": {
         "braavos": [
+          "0x8293870595426ae3190bfcc8013a553d347ad17b0274bd8ba19606f4d8e886",
           "0x69577e6756a99b584b5d1ce8e60650ae33b6e2b13541783458268f07da6b38a",
           "0x1a27b63eb92ca827dbd6e91964be2a53a6d5da2284946aa74fcf98a3cfcde09"
         ],
