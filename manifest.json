@@ -413,7 +413,7 @@
     }
   },
   "max_fee_mul": {
-    "goerli-alpha": 2,
+    "goerli-alpha": 3,
     "goerli-alpha-2": 2,
     "mainnet-alpha": 2
   }
