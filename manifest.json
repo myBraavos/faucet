@@ -76,6 +76,19 @@
         "braavos": [],
         "argent": ["0x25ec026985a3bf9d0cc1fe17326b245dfdc3ff89b8fde106542a3ea56c5a918"]
       }
+    },
+    "devnet": {
+      "impl_address": {
+        "braavos": [
+          "0x69577e6756a99b584b5d1ce8e60650ae33b6e2b13541783458268f07da6b38a",
+          "0x8293870595426ae3190bfcc8013a553d347ad17b0274bd8ba19606f4d8e886"
+        ],
+        "argent": []
+      },
+      "proxy_hash": {
+        "braavos": [],
+        "argent": []
+      }
     }
   },
   "rpc_nodes": {
