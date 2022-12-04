@@ -93,12 +93,12 @@
   },
   "rpc_nodes": {
     "mainnet-alpha": [
-      "https://nd-696-905-717.p2pify.com/973dedb9047063473b0bf2ef85e620b4",
-      "https://starknet-mainnet.infura.io/v3/52da6761470b44e290101e03f237e71c"
+      "https://starknet-mainnet.infura.io/v3/52da6761470b44e290101e03f237e71c",
+      "https://nd-696-905-717.p2pify.com/973dedb9047063473b0bf2ef85e620b4"
     ],
     "goerli-alpha": [
-      "https://nd-541-380-422.p2pify.com/fe0d5cac9d42d01836bada53fc3eab32",
-      "https://starknet-goerli.infura.io/v3/52da6761470b44e290101e03f237e71c"
+      "https://starknet-goerli.infura.io/v3/52da6761470b44e290101e03f237e71c",
+      "https://nd-541-380-422.p2pify.com/fe0d5cac9d42d01836bada53fc3eab32"
     ],
     "goerli-alpha-2": [
       "https://nd-247-790-352.p2pify.com/ef919f9d9b0ef971263175bb82adee74"
@@ -349,6 +349,7 @@
           "implements": ["ERC721"],
           "addresses": {
             "goerli-alpha": [
+              "0x064bfed736951e98e16fedfd4605960879251f59f2f14427a2ae88a48f379801",
               "0x2f13075210b7252c826eafdc09d9d77ef272f582947f7adbd44ef79eae0062c"
             ],
             "mainnet-alpha": [
@@ -376,12 +377,22 @@
               "0x0423c040595731d6c4a3127e8def5b32b94ea81da8c79c17759202fd7417797c"
             ]
           }
+        },
+        "mintsquare_auction_address": {
+          "addresses": {
+            "goerli-alpha": [
+              "0x038e8a53c92fff5e797d348b99c23ade60d86b835d61b3b70e5bf7920c623588"
+            ],
+            "mainnet-alpha": [
+              "0x07a16e9f4608c60704d6b1dfcea6354857ce106281b8986ed9afdecff231f957"
+            ]
+          }
         }
       }
     },
     "PXLS": {
       "displayName": "pxls",
-      "hostnames": ["https://pxls.wtf/"],
+      "hostnames": ["pxls.wtf"],
       "contracts": {
         "pxls_erc721": {
           "implements": ["ERC721"],
@@ -420,6 +431,89 @@
             "mainnet-alpha": [
               "0x07a6f98c03379b9513ca84cca1373ff452a7462a3b61598f0af5bb27ad7f76d1"
             ]
+          }
+        }
+      }
+    },
+    "STARKNET_ID": {
+      "displayName": "Starknet.id",
+      "hostnames": [
+        "goerli.app.starknet.id"
+      ],
+      "contracts": {
+        "starknet_id_address": {
+          "addresses": {
+            "goerli-alpha": [
+              "0x0798e884450c19e072d6620fefdbeb7387d0453d3fd51d95f5ace1f17633d88b"
+            ],
+            "mainnet-alpha": []
+          }
+        },
+        "starknet_id_domain_address": {
+          "addresses": {
+            "goerli-alpha": [
+              "0x5cf267a0af6101667013fc6bd3f6c11116a14cda9b8c4b1198520d59f900b17"
+            ],
+            "mainnet-alpha": []
+          }
+        }
+      }
+    },
+    "ALPHA_ROAD": {
+      "displayName": "Alpha Road",
+      "hostnames": [
+        "testnet.app.alpharoad.fi"
+      ],
+      "contracts": {
+        "alpha_road_address": {
+          "addresses": {
+            "goerli-alpha": [
+              "0x4aec73f0611a9be0524e7ef21ab1679bdf9c97dc7d72614f15373d431226b6a"
+            ],
+            "mainnet-alpha": []
+          }
+        }
+      }
+    },
+    "SITH_SWAP": {
+      "displayName": "SithSwap",
+      "hostnames": [
+        "app.sithswap.com"
+      ],
+      "contracts": {
+        "sith_swap_address": {
+          "addresses": {
+            "goerli-alpha": [
+              "0x4f50f31cd9f85757171c5c7dbab78b9c5e07b32b9a654f518dafea9aa269b92"
+            ],
+            "mainnet-alpha": []
+          }
+        }
+      }
+    },
+    "ZIGZAG": {
+      "displayName": "ZigZag",
+      "hostnames": [
+        "mammoth.zigzag.exchange"
+      ],
+      "contracts": {
+        "zigzag_token_address": {
+          "addresses": {
+            "goerli-alpha": [
+              "0x028465d1158a3e3102052d14a44fbbe366a1b2e40fbb3c6d9701533b2a74e3b7",
+              "0x06b90243d3e73da878727d8456af8d623c4b5a176d8292b7a41d33e4ddb962b1",
+              "0x032b944f02d67fbfd15f74830135116661798b25cad39d8912cb0dd75b1e93bd",
+              "0x043e455d7aa89579e58147464ae06e69914ed14330048ec269014de11692eda0"
+            ],
+            "mainnet-alpha": []
+          }
+        },
+        "zigzag_liquidity_address": {
+          "addresses": {
+            "goerli-alpha": [
+              "0x44fdf484dcffbd49a74fbe939f1b779cedbceaa2c7bc704163eddf3d38cfffb"
+            ],
+            "mainnet-alpha": []
           }
         }
       }
