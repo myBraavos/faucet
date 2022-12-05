@@ -525,5 +525,6 @@
     "mainnet-alpha": 2
   },
   "chain_id": {
+    "goerli-alpha-2": "0x534e5f474f45524c4932"
   }
 }
