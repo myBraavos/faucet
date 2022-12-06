@@ -93,13 +93,8 @@
   },
   "rpc_nodes": {
     "mainnet-alpha": [],
-    "goerli-alpha": [
-      "https://nd-541-380-422.p2pify.com/fe0d5cac9d42d01836bada53fc3eab32",
-      "https://starknet-goerli.infura.io/v3/52da6761470b44e290101e03f237e71c"
-    ],
-    "goerli-alpha-2": [
-      "https://nd-247-790-352.p2pify.com/ef919f9d9b0ef971263175bb82adee74"
-    ]
+    "goerli-alpha": [],
+    "goerli-alpha-2": []
   },
   "swap": {
     "goerli-alpha": [
