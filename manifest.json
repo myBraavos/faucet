@@ -319,7 +319,11 @@
           "addresses": {
             "goerli-alpha": [
               "0x01ea2f12a70ad6a052f99a49dace349996a8e968a0d6d4e9ec34e0991e6d5e5e",
-              "0x012b063b60553c91ed237d8905dff412fba830c5716b17821063176c6c073341"
+              "0x012b063b60553c91ed237d8905dff412fba830c5716b17821063176c6c073341",
+              "0x2bcc885342ebbcbcd170ae6cafa8a4bed22bb993479f49806e72d96af94c965"
+            ],
+            "mainnet-alpha": [
+              "0x41fd22b238fa21cfcf5dd45a8548974d8263b3a531a60388411c5e230f97023"
             ]
           }
         },
@@ -327,7 +331,11 @@
           "addresses": {
             "goerli-alpha": [
               "0x0263acca23357479031157e30053fe10598077f24f427ac1b1de85487f5cd124",
-              "0x07e4a2e2ad496c7572228d922a50e656b5791a6f09818fb709e697f460f55735"
+              "0x07e4a2e2ad496c7572228d922a50e656b5791a6f09818fb709e697f460f55735",
+              "0x073e3ccd627283aed4fa3940aa2bdb4d2c702e8e44c99b6851c019222558310f"
+            ],
+            "mainnet-alpha": [
+              "0x29a303b928b9391ce797ec27d011d3937054bee783ca7831df792bae00c925c"
             ]
           }
         }
@@ -430,7 +438,8 @@
     "STARKNET_ID": {
       "displayName": "Starknet.id",
       "hostnames": [
-        "goerli.app.starknet.id"
+        "goerli.app.starknet.id",
+        "app.starknet.id"
       ],
       "contracts": {
         "starknet_id_address": {
@@ -438,7 +447,9 @@
             "goerli-alpha": [
               "0x0798e884450c19e072d6620fefdbeb7387d0453d3fd51d95f5ace1f17633d88b"
             ],
-            "mainnet-alpha": []
+            "mainnet-alpha": [
+              "0x05dbdedc203e92749e2e746e2d40a768d966bd243df04a6b712e222bc040a9af"
+            ]
           }
         },
         "starknet_id_domain_address": {
@@ -446,7 +457,9 @@
             "goerli-alpha": [
               "0x5cf267a0af6101667013fc6bd3f6c11116a14cda9b8c4b1198520d59f900b17"
             ],
-            "mainnet-alpha": []
+            "mainnet-alpha": [
+              "0x06ac597f8116f886fa1c97a23fa4e08299975ecaf6b598873ca6792b9bbfb678"
+            ]
           }
         }
       }
@@ -508,6 +521,24 @@
             "mainnet-alpha": []
           }
         }
+      }
+    },
+    "ORBITER_FINANCE": {
+      "displayName": "Orbiter Finance",
+      "hostnames": ["www.orbiter.finance"],
+      "contracts": {
+          "orbiter_finance_address": {
+              "addresses": {
+                  "goerli-alpha": [
+                      "0x049d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7",
+                      "0x03e85bfbb8e2a42b7bead9e88e9a1b19dbccf661471061807292120462396ec9"
+                  ],
+                  "mainnet-alpha": [
+                      "0x049d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7",
+                      "0x03e85bfbb8e2a42b7bead9e88e9a1b19dbccf661471061807292120462396ec9"
+                  ]
+              }
+          }
       }
     }
   },
