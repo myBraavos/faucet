@@ -31,6 +31,7 @@
   "mainnet_platforms": ["android", "web", "ios"],
   "recovery_params": {
     "goerli-alpha": {
+      "api_url": "https://ptkyhcly4gbi45bnjf2nw6ilta0ceygi.lambda-url.us-east-1.on.aws",
       "impl_address": {
         "braavos": [
           "0x69577e6756a99b584b5d1ce8e60650ae33b6e2b13541783458268f07da6b38a",
@@ -48,6 +49,7 @@
       }
     },
     "goerli-alpha-2": {
+      "api_url": "https://ptkyhcly4gbi45bnjf2nw6ilta0ceygi.lambda-url.us-east-1.on.aws",
       "impl_address": {
         "braavos": [
           "0x69577e6756a99b584b5d1ce8e60650ae33b6e2b13541783458268f07da6b38a",
@@ -63,6 +65,7 @@
       }
     },
     "mainnet-alpha": {
+      "api_url": "https://ptkyhcly4gbi45bnjf2nw6ilta0ceygi.lambda-url.us-east-1.on.aws",
       "impl_address": {
         "braavos": [
           "0x69577e6756a99b584b5d1ce8e60650ae33b6e2b13541783458268f07da6b38a",
