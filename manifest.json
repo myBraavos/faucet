@@ -532,13 +532,9 @@
       "contracts": {
           "orbiter_finance_address": {
               "addresses": {
-                  "goerli-alpha": [
-                      "0x049d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7",
-                      "0x03e85bfbb8e2a42b7bead9e88e9a1b19dbccf661471061807292120462396ec9"
-                  ],
+                  "goerli-alpha": [],
                   "mainnet-alpha": [
-                      "0x049d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7",
-                      "0x03e85bfbb8e2a42b7bead9e88e9a1b19dbccf661471061807292120462396ec9"
+                      "0x0173f81c529191726c6e7287e24626fe24760ac44dae2a1f7e02080230f8458b"
                   ]
               }
           }
