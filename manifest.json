@@ -86,8 +86,7 @@
       "impl_address": {
         "braavos": [
           "0x69577e6756a99b584b5d1ce8e60650ae33b6e2b13541783458268f07da6b38a",
-          "0x8293870595426ae3190bfcc8013a553d347ad17b0274bd8ba19606f4d8e886",
-          "0x125df2c8c30bdadb5fa22bec5120a45cfb10d3931a713bafbc21f16ad95c5b8"
+          "0x8293870595426ae3190bfcc8013a553d347ad17b0274bd8ba19606f4d8e886"
         ],
         "argent": ["0x3e327de1c40540b98d05cbcb13552008e36f0ec8d61d46956d2f9752c294328"]
       },
