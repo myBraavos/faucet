@@ -579,5 +579,16 @@
       "braavos_subdomain": "0x0660b2cd3c93528d4edf790610404414ba3f03e0d45c814d686d628583cb34de",
       "min_len": 4
     }
+  },
+  "call_contract_aggregator": {
+    "mainnet-alpha": {
+      "contract_address": "0x163dd8182a69972b9fc7e95eb0be92b731680212beddfede2eff4ffcfa28bfb"
+    },
+    "goerli-alpha": {
+      "contract_address": "0x163dd8182a69972b9fc7e95eb0be92b731680212beddfede2eff4ffcfa28bfb"
+    },
+    "goerli-alpha-2": {
+      "contract_address": "0x163dd8182a69972b9fc7e95eb0be92b731680212beddfede2eff4ffcfa28bfb"
+    }
   }
 }
