@@ -563,7 +563,8 @@
   "max_fee_mul": {
     "goerli-alpha": 2,
     "goerli-alpha-2": 2,
-    "mainnet-alpha": 2
+    "mainnet-alpha": 2,
+    "devnet": 2
   },
   "chain_id": {
     "goerli-alpha-2": "0x534e5f474f45524c4932"
