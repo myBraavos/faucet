@@ -203,8 +203,48 @@
             "cfmm": 0,
             "shares": [40141504645105, 0]
           },
-          "numberOfPools": 4
-        },
+	  "5": {
+	      "poolName": "MYSWAP USDC/USDT",
+	      "poolNameFelt": 0,
+	      "tokenAAddress": "0x53c91253bc9682c04929ca02ed00b3e423f6710d2ee7e0d5ebb06f3ecf368a8",
+	      "tokenAReserves": [
+		  1100422297,
+		  0
+	      ],
+	      "tokenBAddress": "0x68f5c6a61780768455de69077e07e89787839bf8166decfbf92b645209c0fb8",
+	      "tokenBReserves": [
+		  1055691043,
+		  0
+	      ],
+	      "feePercentage": 300,
+	      "cfmm": 0,
+	      "shares": [
+		  1077756279,
+		  0
+	      ]
+	  },
+	  "6": {
+	      "poolName": "MYSWAP DAI/USDC",
+	      "poolNameFelt": 0,
+	      "tokenAAddress": "0xda114221cb83fa859dbdb4c44beeaa0bb37c7537ad5ae66fe5e0efd20e6eb3",
+	      "tokenAReserves": [
+		  1533868016466226000000,
+		  0
+	      ],
+	      "tokenBAddress": "0x53c91253bc9682c04929ca02ed00b3e423f6710d2ee7e0d5ebb06f3ecf368a8",
+	      "tokenBReserves": [
+		  1442732757,
+		  0
+	      ],
+	      "feePercentage": 300,
+	      "cfmm": 0,
+	      "shares": [
+		  1487411950538678,
+		  0
+	      ]
+	  },
+          "numberOfPools": 6
+	},
         "tokens": [
           "0x53c91253bc9682c04929ca02ed00b3e423f6710d2ee7e0d5ebb06f3ecf368a8",
           "0xda114221cb83fa859dbdb4c44beeaa0bb37c7537ad5ae66fe5e0efd20e6eb3",
