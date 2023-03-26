@@ -658,10 +658,9 @@
         },
         "id": "ASPECT",
         "cover": "https://raw.githubusercontent.com/myBraavos/faucet/gh-pages/images/dapps/aspect_cover.jpeg",
-        "description": "Aspect is an NFT marketplace powered by Starknet. Buy, Sell, and Create in the meta economy.",
+        "description": "Aspect is an NFT marketplace powered by Starknet, a ZK rollup L2 on ETH. Buy, Sell, and Create in the meta economy.",
         "categories": [
-          0,
-          2
+          0
         ]
       },
       {
@@ -670,7 +669,7 @@
         "uri": "https://www.myswap.xyz",
         "id": "MY_SWAP",
         "cover": "https://raw.githubusercontent.com/myBraavos/faucet/gh-pages/images/dapps/myswap_cover.jpeg",
-        "description": "mySwap is the first AMM built on Starknet. You can swap tokens and deposit your funds in liquidity pools to earn high yield.",
+        "description": "mySwap is the first AMM built on Starknet. You can swap ETH with USDC and DAI, and deposit your cryptos in liquidity pools. Check our website and follow us on Twitter for future announcements.",
         "categories": [
           1,
           2
@@ -682,10 +681,9 @@
         "uri": "https://mintsquare.io",
         "id": "MINT_SQUARE",
         "cover": "https://raw.githubusercontent.com/myBraavos/faucet/gh-pages/images/dapps/mint_square_cover.jpeg",
-        "description": "NFT marketplace on Ethereum Layer 2 ZK Rollups",
+        "description": "NFT Platform on Ethereum Layer 2 ZK Rollup",
         "categories": [
-          0,
-          2
+          0
         ]
       },
       {
@@ -700,14 +698,15 @@
         ]
       },
       {
-        "displayName": "10KSwap",
+        "displayName": "10kSwap",
         "icon": "https://raw.githubusercontent.com/myBraavos/faucet/gh-pages/images/dapps/10k_ico.jpg",
         "uri": "https://10kswap.com/",
         "id": "10K_SWAP",
         "cover": "https://raw.githubusercontent.com/myBraavos/faucet/gh-pages/images/dapps/10k_cover.jpg",
         "description": "10KSwap is a Layer 2 AMM protocol building on Starknet",
         "categories": [
-          1
+          1,
+          3
         ]
       },
       {
@@ -740,7 +739,8 @@
         "cover": "https://raw.githubusercontent.com/myBraavos/faucet/gh-pages/images/dapps/starksheet_cover.jpg",
         "description": "A spreadsheet interface to read, write and execute anything on-chain.",
         "categories": [
-          3,
+          0,
+          1,
           5
         ]
       },
@@ -750,7 +750,7 @@
         "uri": "https://ninth.gg/",
         "id": "NINTH",
         "cover": "https://raw.githubusercontent.com/myBraavos/faucet/gh-pages/images/dapps/ninth_cover.jpg",
-        "description": "The Ninth is a metaverse world truly owned by users. Land owners can generate various in-game elements and have various gameplay. Various elements such as multi-epoch iterations, trading markets, DAOs, game guilds, and virtual buildings constitute this metaverse with a grand worldview",
+        "description": "The Ninth is a metaverse world built with Starkware technology. The world is truly owned by users, and land owners can generate various in-game elements and have various gameplay. Various elements such as multi-epoch iterations, trading markets, DAOs, game guilds, and virtual buildings constitute this metaverse with a grand worldview",
         "categories": [
           4
         ]
@@ -764,9 +764,9 @@
         },
         "id": "JEDI_SWAP",
         "cover": "https://raw.githubusercontent.com/myBraavos/faucet/gh-pages/images/dapps/jediswap_cover.jpg",
-        "description": "JediSwap is a fully permissionless and composable AMM on Starknet. Users can swap assets instantaneously with 0 gas fees while relying on Ethereum security. Anyone can add a pool on Jediswap, and builders can build more advanced applications using JediSwap open sourced contracts",
+        "description": "JediSwap is a fully permissionless and composable AMM on Starknet. Users can swap assets instantaneously with 0 gas fees while relying on Ethereum security. Anyone can add a pair on Jediswap, and builders can build more advanced applications using JediSwap open sourced contracts",
         "categories": [
-          1
+          2
         ]
       },
       {
@@ -778,6 +778,7 @@
         "description": "Identity and naming service for starknet",
         "categories": [
           0,
+          5,
           6
         ]
       },
@@ -789,7 +790,9 @@
         "cover": "https://raw.githubusercontent.com/myBraavos/faucet/gh-pages/images/dapps/hashstack_cover.jpg",
         "description": "A non-custodial Zk-native money market protocol enabling secure under-collateralized loans.",
         "categories": [
-          1
+          0,
+          5,
+          6
         ]
       },
       {
@@ -820,69 +823,75 @@
     "listing": {
       "mainnet-alpha": {
         "android": [
-          "MY_SWAP",
-          "STARKNET_ID",
+          "10K_SWAP",
+          "ALMANAC",
           "ASPECT",
-          "MINT_SQUARE",
           "BRIQ",
           "GOL2",
-          "NINTH",
-          "STARK_SHEET",
-          "ALMANAC",
+          "HASHSTACK",
           "JEDI_SWAP",
-          "10K_SWAP"
+          "MINT_SQUARE",
+          "MY_SWAP",
+          "NINTH",
+          "STARKNET_ID",
+          "STARK_SHEET"
         ],
         "web": [
-          "MY_SWAP",
-          "STARKNET_ID",
+          "10K_SWAP",
+          "ALMANAC",
           "ASPECT",
-          "MINT_SQUARE",
           "BRIQ",
           "GOL2",
-          "NINTH",
-          "STARK_SHEET",
-          "ALMANAC",
+          "HASHSTACK",
           "JEDI_SWAP",
-          "10K_SWAP"
+          "MINT_SQUARE",
+          "MY_SWAP",
+          "NINTH",
+          "STARKNET_ID",
+          "STARK_SHEET"
         ],
         "ios": []
       },
       "goerli-alpha": {
         "android": [
-          "MY_SWAP",
-          "STARKNET_ID",
+          "10K_SWAP",
+          "ALMANAC",
           "ASPECT",
-          "MINT_SQUARE",
           "BRIQ",
           "GOL2",
           "HASHSTACK",
-          "ALMANAC",
+          "JEDI_SWAP",
+          "MINT_SQUARE",
+          "MY_SWAP",
           "NINTH",
           "NOSTRA",
+          "STARKNET_ID",
           "STARK_SHEET",
-          "YAGI_FINANCE",
-          "10K_SWAP",
-          "JEDI_SWAP"
+          "YAGI_FINANCE"
         ],
         "web": [
-          "MY_SWAP",
-          "STARKNET_ID",
+          "10K_SWAP",
+          "ALMANAC",
           "ASPECT",
-          "MINT_SQUARE",
           "BRIQ",
           "GOL2",
           "HASHSTACK",
+          "JEDI_SWAP",
+          "MINT_SQUARE",
+          "MY_SWAP",
           "NINTH",
           "NOSTRA",
-          "ALMANAC",
+          "STARKNET_ID",
           "STARK_SHEET",
-          "YAGI_FINANCE",
-          "10K_SWAP",
-          "JEDI_SWAP"
+          "YAGI_FINANCE"
         ],
         "ios": []
       }
-
+    }
+  },
+  "secp256r1_gas": {
+    "goerli-alpha": {
+      "0x22f6141bd311f83cbf18a73685e4884ae0f2ccbeb9401b17c0a41a68c5460ed": 4500
     }
   }
 }
