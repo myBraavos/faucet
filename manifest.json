@@ -645,8 +645,7 @@
       "2": "Mobile",
       "3": "Infrastructure",
       "4": "GameFi",
-      "5": "Tools",
-      "6": "Digital ID"
+      "5": "Digital ID"
     },
     "data": [
       {
@@ -740,8 +739,7 @@
         "cover": "https://raw.githubusercontent.com/myBraavos/faucet/gh-pages/images/dapps/starksheet_cover.jpg",
         "description": "A spreadsheet interface to read, write and execute anything on-chain.",
         "categories": [
-          3,
-          5
+          3
         ]
       },
       {
@@ -778,7 +776,7 @@
         "description": "Identity and naming service for starknet",
         "categories": [
           0,
-          6
+          5
         ]
       },
       {
