@@ -772,7 +772,7 @@
       {
         "displayName": "Starknet.id",
         "icon": "https://raw.githubusercontent.com/myBraavos/faucet/gh-pages/images/dapps/starknet_ico.jpg",
-        "uri": "https://www.starknet.id/",
+        "uri": "https://app.starknet.id/",
         "id": "STARKNET_ID",
         "cover": "https://raw.githubusercontent.com/myBraavos/faucet/gh-pages/images/dapps/starknet_cover.jpg",
         "description": "Identity and naming service for starknet",
