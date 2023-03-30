@@ -416,7 +416,8 @@
               "0x05bc8cc601c5098e20e9d9d74e86cfb0ec737f6f3ac571914dbe4f74aa249786"
             ],
             "mainnet-alpha": [
-              "0x0713273b1982c3b870b963418843ff8cbdb8f92481cd7f663f0f0e1c94848833"
+              "0x0713273b1982c3b870b963418843ff8cbdb8f92481cd7f663f0f0e1c94848833",
+              "0x079b882cb8200c1c1d20e849a2ef19124b0b8985358c1313ea6af588cfe4fec8"
             ]
           }
         },
