@@ -1,27 +1,4 @@
 {
-  "short_name": "Faucet",
-  "name": "TST Foucet - brought to you by Braavos",
-  "icons": [
-    {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
-    },
-    {
-      "src": "/images/logo128.png",
-      "type": "image/png",
-      "sizes": "128x128 64x64 32x32 24x24 16x16"
-    },
-    {
-      "src": "/images/logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
-    }
-  ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff",
   "mainnet": false,
   "enforce_fees": true,
   "mainnet_min_ver": {
@@ -103,8 +80,14 @@
     }
   },
   "rpc_nodes": {
-    "mainnet-alpha": [],
-    "goerli-alpha": [],
+    "mainnet-alpha": [
+      "https://nd-696-905-717.p2pify.com/973dedb9047063473b0bf2ef85e620b4",
+      "https://starknet-mainnet.infura.io/v3/52da6761470b44e290101e03f237e71c"
+    ],
+    "goerli-alpha": [
+      "https://nd-541-380-422.p2pify.com/fe0d5cac9d42d01836bada53fc3eab32",
+      "https://starknet-goerli.infura.io/v3/52da6761470b44e290101e03f237e71c"
+    ],
     "goerli-alpha-2": []
   },
   "multisig_rpc_nodes": {
