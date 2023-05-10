@@ -822,7 +822,8 @@
           "ALMANAC",
           "JEDI_SWAP",
           "10K_SWAP",
-          "SITH_SWAP"
+          "SITH_SWAP",
+          "STARKGATE"
         ],
         "web": [
           "MY_SWAP",
@@ -836,7 +837,8 @@
           "ALMANAC",
           "JEDI_SWAP",
           "10K_SWAP",
-          "SITH_SWAP"
+          "SITH_SWAP",
+          "STARKGATE"
         ],
         "ios": []
       },
@@ -857,7 +859,8 @@
           "10K_SWAP",
           "JEDI_SWAP",
           "AVNU",
-          "SITH_SWAP"
+          "SITH_SWAP",
+          "STARKGATE"
         ],
         "web": [
           "MY_SWAP",
@@ -875,7 +878,8 @@
           "10K_SWAP",
           "JEDI_SWAP",
           "AVNU",
-          "SITH_SWAP"
+          "SITH_SWAP",
+          "STARKGATE"
         ],
         "ios": []
       }
