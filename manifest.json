@@ -823,7 +823,8 @@
           "JEDI_SWAP",
           "10K_SWAP",
           "SITH_SWAP",
-          "STARKGATE"
+          "STARKGATE",
+          "carmineoptions"
         ],
         "web": [
           "MY_SWAP",
@@ -838,7 +839,8 @@
           "JEDI_SWAP",
           "10K_SWAP",
           "SITH_SWAP",
-          "STARKGATE"
+          "STARKGATE",
+          "carmineoptions"
         ],
         "ios": []
       },
@@ -860,7 +862,8 @@
           "JEDI_SWAP",
           "AVNU",
           "SITH_SWAP",
-          "STARKGATE"
+          "STARKGATE",
+          "carmineoptions"
         ],
         "web": [
           "MY_SWAP",
@@ -879,7 +882,8 @@
           "JEDI_SWAP",
           "AVNU",
           "SITH_SWAP",
-          "STARKGATE"
+          "STARKGATE",
+          "carmineoptions"
         ],
         "ios": []
       }
