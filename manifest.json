@@ -865,7 +865,8 @@
           "AVNU",
           "SITH_SWAP",
           "STARKGATE",
-          "carmineoptions"
+          "carmineoptions",
+          "starkpill"
         ],
         "web": [
           "MY_SWAP",
@@ -885,7 +886,8 @@
           "AVNU",
           "SITH_SWAP",
           "STARKGATE",
-          "carmineoptions"
+          "carmineoptions",
+          "starkpill"
         ],
         "ios": []
       }
