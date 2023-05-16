@@ -824,7 +824,8 @@
           "10K_SWAP",
           "SITH_SWAP",
           "STARKGATE",
-          "carmineoptions"
+          "carmineoptions",
+          "zklend"
         ],
         "web": [
           "MY_SWAP",
@@ -840,7 +841,8 @@
           "10K_SWAP",
           "SITH_SWAP",
           "STARKGATE",
-          "carmineoptions"
+          "carmineoptions",
+          "zklend"
         ],
         "ios": []
       },
@@ -896,5 +898,6 @@
     "mainnet-alpha": {
       "58256001704608589532901680": 4500
     }
-  }
+  },
+  "v0_upgradable": true
 }
