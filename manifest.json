@@ -811,6 +811,7 @@
     "listing": {
       "mainnet-alpha": {
         "android": [
+          "starknetjourney",
           "MY_SWAP",
           "STARKNET_ID",
           "ASPECT",
@@ -828,6 +829,7 @@
           "zklend"
         ],
         "web": [
+          "starknetjourney",
           "MY_SWAP",
           "STARKNET_ID",
           "ASPECT",
