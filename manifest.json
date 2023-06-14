@@ -136,7 +136,13 @@
             "cfmm": 0,
             "shares": [3162277660168, 0]
           },
-          "numberOfPools": 3
+          "4": {
+            "poolName": "MYSWAP tETH/ETH",
+            "tokenAAddress": "0x42b8f0484674ca266ac5d08e4ac6a3fe65bd3129795def2dca5c34ecc5f96d2",
+            "tokenBAddress": "0x49d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7",
+            "liqToken": "0x28189e3e0dfa5f17528dfb084f2d8637f7f2ec44e902de1f574ef3dbdc24a84"
+          },
+          "numberOfPools": 4
         },
         "tokens": [
           "0x3e85bfbb8e2a42b7bead9e88e9a1b19dbccf661471061807292120462396ec9",
@@ -234,7 +240,13 @@
 		  0
 	      ]
 	  },
-          "numberOfPools": 6
+          "7": {
+            "poolName": "MYSWAP tETH/ETH",
+            "tokenAAddress": "0x42b8f0484674ca266ac5d08e4ac6a3fe65bd3129795def2dca5c34ecc5f96d2",
+            "tokenBAddress": "0x49d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7",
+            "liqToken": "0x14e644c20bd5f9888033d2093c8ba3334caa0c7d15ed142962a9bebf36cc7e0"
+          },
+          "numberOfPools": 7
 	},
         "tokens": [
           "0x53c91253bc9682c04929ca02ed00b3e423f6710d2ee7e0d5ebb06f3ecf368a8",
@@ -907,5 +919,43 @@
       "58256001704608589532901680": 4500
     }
   },
-  "v0_upgradable": true
+  "v0_upgradable": true,
+  "staking": {
+    "direct": {
+      "goerli-alpha": {
+        "contract_address": "0x072d7449f887ae39f864380e19022bb98e8b50233aa23f9b8e422c32bf56a43b",
+        "reward_token_address": "0x042b8f0484674ca266ac5d08e4ac6a3fe65bd3129795def2dca5c34ecc5f96d2",
+        "min_staking": 0.005,
+        "min_staking_ne": 1,
+        "est_deposit_time": 57600000,
+        "est_withdrawal_time": 57600000
+      },
+      "mainnet-alpha": {
+        "contract_address": "0x074c31eb40b4f704814a8b9764889f21a7b12464765c4e235ade9b7dfff63660",
+        "reward_token_address": "0x042b8f0484674ca266ac5d08e4ac6a3fe65bd3129795def2dca5c34ecc5f96d2",
+        "min_staking": 0.005,
+        "min_staking_ne": 1,
+        "est_deposit_time": 57600000,
+        "est_withdrawal_time": 57600000
+      }
+    },
+    "boost": {
+      "goerli-alpha": {
+        "contract_address": "0x05d3623995d517d18fe7be56280a94706333e7d16638c30faf87b857573e0b6c",
+        "reward_token_address": "0x028189e3e0dfa5f17528dfb084f2d8637f7f2ec44e902de1f574ef3dbdc24a84",
+        "min_staking": 0.005,
+        "min_staking_ne": 1,
+        "est_deposit_time": 57600000,
+        "est_withdrawal_time": 57600000
+      },
+      "mainnet-alpha": {
+        "contract_address": "0x5abfa46fe9bf3323dfe801da51174729c2b3dd060b80575b29c015245899d74",
+        "reward_token_address": "0x014e644c20bd5f9888033d2093c8ba3334caa0c7d15ed142962a9bebf36cc7e0",
+        "min_staking": 0.005,
+        "min_staking_ne": 1,
+        "est_deposit_time": 57600000,
+        "est_withdrawal_time": 57600000
+      }
+    }
+  }
 }
