@@ -93,9 +93,9 @@
     "goerli-alpha-2": []
   },
   "multisig_rpc_nodes": {
-    "mainnet-alpha": ["https://nd-696-905-717.p2pify.com/973dedb9047063473b0bf2ef85e620b4"],
-    "goerli-alpha": ["https://nd-541-380-422.p2pify.com/fe0d5cac9d42d01836bada53fc3eab32"],
-    "goerli-alpha-2": ["https://nd-247-790-352.p2pify.com/ef919f9d9b0ef971263175bb82adee74"]
+    "mainnet-alpha": ["https://nd-696-905-717.p2pify.com/973dedb9047063473b0bf2ef85e620b4/rpc/v0.2"],
+    "goerli-alpha": ["https://nd-541-380-422.p2pify.com/fe0d5cac9d42d01836bada53fc3eab32/rpc/v0.2"],
+    "goerli-alpha-2": ["https://nd-247-790-352.p2pify.com/ef919f9d9b0ef971263175bb82adee74/rpc/v0.2"]
   },
   "swap": {
     "goerli-alpha": [
