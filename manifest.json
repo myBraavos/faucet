@@ -933,8 +933,8 @@
       "mainnet-alpha": {
         "contract_address": "0x074c31eb40b4f704814a8b9764889f21a7b12464765c4e235ade9b7dfff63660",
         "reward_token_address": "0x042b8f0484674ca266ac5d08e4ac6a3fe65bd3129795def2dca5c34ecc5f96d2",
-        "min_staking": 0.001,
-        "min_withdrawal": 0.001,
+        "min_staking": 0.01,
+        "min_withdrawal": 0.0085,
         "min_staking_ne": 1,
         "est_deposit_time": 57600000,
         "est_withdrawal_time": 57600000
@@ -952,8 +952,8 @@
       "mainnet-alpha": {
         "contract_address": "0x5abfa46fe9bf3323dfe801da51174729c2b3dd060b80575b29c015245899d74",
         "reward_token_address": "0x014e644c20bd5f9888033d2093c8ba3334caa0c7d15ed142962a9bebf36cc7e0",
-        "min_staking": 0.001,
-        "min_withdrawal": 0.001,
+        "min_staking": 0.01,
+        "min_withdrawal": 0.005,
         "min_staking_ne": 1,
         "est_deposit_time": 57600000,
         "est_withdrawal_time": 57600000
