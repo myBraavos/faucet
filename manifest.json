@@ -938,7 +938,7 @@
         "contract_address": "0x5abfa46fe9bf3323dfe801da51174729c2b3dd060b80575b29c015245899d74",
         "reward_token_address": "0x014e644c20bd5f9888033d2093c8ba3334caa0c7d15ed142962a9bebf36cc7e0",
         "min_staking": 0.01,
-        "min_withdrawal": 0.005,
+        "min_withdrawal": 0.004,
         "min_staking_ne": 1,
 	"apr":13.11,
         "est_deposit_time": 57600000,
