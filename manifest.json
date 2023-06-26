@@ -83,12 +83,12 @@
     "mainnet-alpha": [
       "https://nd-696-905-717.p2pify.com/973dedb9047063473b0bf2ef85e620b4/rpc/v0.2",
       "https://starknet-mainnet.infura.io/v3/52da6761470b44e290101e03f237e71c",
-      "https://starknet-mainnet.blastapi.io/41246011-1d84-4e86-ad30-8ad7fd566c21"
+      "https://starknet-mainnet.blastapi.io/41246011-1d84-4e86-ad30-8ad7fd566c21/rpc/v0.2"
     ],
     "goerli-alpha": [
       "https://nd-541-380-422.p2pify.com/fe0d5cac9d42d01836bada53fc3eab32/rpc/v0.2",
       "https://starknet-goerli.infura.io/v3/52da6761470b44e290101e03f237e71c",
-      "https://starknet-testnet.blastapi.io/41246011-1d84-4e86-ad30-8ad7fd566c21"
+      "https://starknet-testnet.blastapi.io/41246011-1d84-4e86-ad30-8ad7fd566c21/rpc/v0.2"
     ],
     "goerli-alpha-2": []
   },
@@ -938,9 +938,8 @@
         "contract_address": "0x5abfa46fe9bf3323dfe801da51174729c2b3dd060b80575b29c015245899d74",
         "reward_token_address": "0x014e644c20bd5f9888033d2093c8ba3334caa0c7d15ed142962a9bebf36cc7e0",
         "min_staking": 0.01,
-        "min_withdrawal": 0.004,
+        "min_withdrawal": 0.005,
         "min_staking_ne": 1,
-	"apr":13.11,
         "est_deposit_time": 57600000,
         "est_withdrawal_time": 57600000
       }
