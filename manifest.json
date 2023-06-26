@@ -82,12 +82,10 @@
   "rpc_nodes": {
     "mainnet-alpha": [
       "https://nd-696-905-717.p2pify.com/973dedb9047063473b0bf2ef85e620b4/rpc/v0.2",
-      "https://starknet-mainnet.infura.io/v3/52da6761470b44e290101e03f237e71c",
       "https://starknet-mainnet.blastapi.io/41246011-1d84-4e86-ad30-8ad7fd566c21/rpc/v0.2"
     ],
     "goerli-alpha": [
       "https://nd-541-380-422.p2pify.com/fe0d5cac9d42d01836bada53fc3eab32/rpc/v0.2",
-      "https://starknet-goerli.infura.io/v3/52da6761470b44e290101e03f237e71c",
       "https://starknet-testnet.blastapi.io/41246011-1d84-4e86-ad30-8ad7fd566c21/rpc/v0.2"
     ],
     "goerli-alpha-2": []
