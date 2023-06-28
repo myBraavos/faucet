@@ -940,7 +940,7 @@
         "min_staking_ne": 1,
         "est_deposit_time": 57600000,
         "est_withdrawal_time": 57600000,
-        "apr": 10.18
+        "apr": 12.81
       }
     }
   }
