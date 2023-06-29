@@ -79,6 +79,19 @@
       }
     }
   },
+  "rpc_nodes_v3": {
+    "mainnet-alpha": [
+      "https://starknet-mainnet.blastapi.io/41246011-1d84-4e86-ad30-8ad7fd566c21",
+      "https://nd-823-480-386.p2pify.com/65be511239ca22bf74e5b92f0d6ba55c"
+    ],
+    "goerli-alpha": [
+      "https://starknet-testnet.blastapi.io/41246011-1d84-4e86-ad30-8ad7fd566c21",
+      "https://nd-186-647-251.p2pify.com/ec0b3148ca3147113f33b581c2240b65"
+    ],
+    "goerli-alpha-2": [
+      "https://nd-333-292-643.p2pify.com/91e1eb11b4aaf3f6630fc749c8e37fb2"
+    ]
+  },
   "rpc_nodes": {
     "mainnet-alpha": [
       "https://nd-696-905-717.p2pify.com/973dedb9047063473b0bf2ef85e620b4/rpc/v0.2",
