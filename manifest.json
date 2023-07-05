@@ -743,7 +743,7 @@
         "uri": "https://gol2.io/",
         "id": "GOL2",
         "cover": "https://raw.githubusercontent.com/myBraavos/faucet/gh-pages/images/dapps/gol2_cover.jpg",
-        "description": "GoL2 on Starknet – an on-chain iteration of the classic Game of Play by John Conway.",
+        "description": "GoL2 on Starknet - an on-chain iteration of the classic Game of Play by John Conway.",
         "categories": [
           4
         ]
