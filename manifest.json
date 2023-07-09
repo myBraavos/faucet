@@ -835,11 +835,9 @@
     "listing": {
       "mainnet-alpha": {
         "android": [
-          "starknetjourney",
           "MY_SWAP",
           "STARKNET_ID",
           "ASPECT",
-          "MINT_SQUARE",
           "BRIQ",
           "GOL2",
           "NINTH",
@@ -855,11 +853,9 @@
           "fibrous"
         ],
         "web": [
-          "starknetjourney",
           "MY_SWAP",
           "STARKNET_ID",
           "ASPECT",
-          "MINT_SQUARE",
           "BRIQ",
           "GOL2",
           "NINTH",
@@ -881,7 +877,6 @@
           "MY_SWAP",
           "STARKNET_ID",
           "ASPECT",
-          "MINT_SQUARE",
           "BRIQ",
           "GOL2",
           "HASHSTACK",
@@ -902,7 +897,6 @@
           "MY_SWAP",
           "STARKNET_ID",
           "ASPECT",
-          "MINT_SQUARE",
           "BRIQ",
           "GOL2",
           "HASHSTACK",
