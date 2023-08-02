@@ -797,5 +797,11 @@
       }
     }
   },
-  "price_api": "https://price.braavos.app"
+  "price_api": "https://price.braavos.app",
+  "moa_assert": {
+    "goerli-alpha": {
+      "extra": "0.00225",
+      "buffer": "1.5"
+    }
+  }
 }
