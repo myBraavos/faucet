@@ -800,8 +800,8 @@
   "price_api": "https://price.braavos.app",
   "moa_assert": {
     "goerli-alpha": {
-      "extra": "0.00225",
-      "buffer": "1.5"
+      "extra": 2250000000000000,
+      "buffer": 1.5
     }
   }
 }
