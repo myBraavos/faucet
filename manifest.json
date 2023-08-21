@@ -81,7 +81,7 @@
   },
   "rpc_nodes_v3": {
     "mainnet-alpha": [
-      "https://starknet-mainnet.blastapi.io/41246011-1d84-4e86-ad30-8ad7fd566c21",
+      "https://starknet-mainnet.blastapi.io/41246011-1d84-4e86-ad30-8ad7fd566c21/rpc/v0.4",
       "https://nd-823-480-386.p2pify.com/65be511239ca22bf74e5b92f0d6ba55c/rpc/v0.4"
     ],
     "goerli-alpha": [
