@@ -750,7 +750,7 @@
       "58256001704608589532901680": 4500
     }
   },
-  "v0_upgradable": true,
+  "v0_upgradable": false,
   "staking": {
     "direct": {
       "goerli-alpha": {
@@ -797,6 +797,14 @@
   "apr_api": "https://xiytzmujw0.execute-api.us-east-1.amazonaws.com/prod",
   "moa_assert": {
     "goerli-alpha": {
+      "extra": 2250000000000000,
+      "buffer": 1.5
+    },
+    "goerli-alpha-2": {
+      "extra": 2250000000000000,
+      "buffer": 1.5
+    },
+    "mainnet-alpha": {
       "extra": 2250000000000000,
       "buffer": 1.5
     }
