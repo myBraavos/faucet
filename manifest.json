@@ -750,7 +750,7 @@
       "58256001704608589532901680": 4500
     }
   },
-  "v0_upgradable": false,
+  "v0_upgradable": true,
   "staking": {
     "direct": {
       "goerli-alpha": {
