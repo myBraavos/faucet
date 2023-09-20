@@ -666,7 +666,8 @@
           "JEDI_SWAP",
           "10K_SWAP",
           "SITH_SWAP",
-          "carmineoptions"
+          "carmineoptions",
+          "rango"
         ],
         "web": [
           "MY_SWAP",
@@ -685,7 +686,8 @@
           "JEDI_SWAP",
           "10K_SWAP",
           "SITH_SWAP",
-          "carmineoptions"
+          "carmineoptions",
+          "rango"
         ],
         "ios": []
       },
