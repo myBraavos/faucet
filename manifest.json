@@ -98,9 +98,15 @@
     "goerli-alpha-2": []
   },
   "multisig_rpc_nodes": {
-    "mainnet-alpha": ["https://nd-696-905-717.p2pify.com/973dedb9047063473b0bf2ef85e620b4/rpc/v0.2"],
-    "goerli-alpha": ["https://nd-541-380-422.p2pify.com/fe0d5cac9d42d01836bada53fc3eab32/rpc/v0.2"],
-    "goerli-alpha-2": ["https://nd-247-790-352.p2pify.com/ef919f9d9b0ef971263175bb82adee74/rpc/v0.2"]
+    "mainnet-alpha": [
+      "https://nd-696-905-717.p2pify.com/973dedb9047063473b0bf2ef85e620b4/rpc/v0.2"
+    ],
+    "goerli-alpha": [
+      "https://nd-541-380-422.p2pify.com/fe0d5cac9d42d01836bada53fc3eab32/rpc/v0.2"
+    ],
+    "goerli-alpha-2": [
+      "https://nd-247-790-352.p2pify.com/ef919f9d9b0ef971263175bb82adee74/rpc/v0.2"
+    ]
   },
   "swap": {
     "goerli-alpha": [
@@ -205,46 +211,28 @@
             "cfmm": 0,
             "shares": [40141504645105, 0]
           },
-	  "5": {
-	      "poolName": "MYSWAP USDC/USDT",
-	      "poolNameFelt": 0,
-	      "tokenAAddress": "0x53c91253bc9682c04929ca02ed00b3e423f6710d2ee7e0d5ebb06f3ecf368a8",
-	      "tokenAReserves": [
-		  1100422297,
-		  0
-	      ],
-	      "tokenBAddress": "0x68f5c6a61780768455de69077e07e89787839bf8166decfbf92b645209c0fb8",
-	      "tokenBReserves": [
-		  1055691043,
-		  0
-	      ],
-	      "feePercentage": 300,
-	      "cfmm": 0,
-	      "shares": [
-		  1077756279,
-		  0
-	      ]
-	  },
-	  "6": {
-	      "poolName": "MYSWAP DAI/USDC",
-	      "poolNameFelt": 0,
-	      "tokenAAddress": "0xda114221cb83fa859dbdb4c44beeaa0bb37c7537ad5ae66fe5e0efd20e6eb3",
-	      "tokenAReserves": [
-		  1533868016466226000000,
-		  0
-	      ],
-	      "tokenBAddress": "0x53c91253bc9682c04929ca02ed00b3e423f6710d2ee7e0d5ebb06f3ecf368a8",
-	      "tokenBReserves": [
-		  1442732757,
-		  0
-	      ],
-	      "feePercentage": 300,
-	      "cfmm": 0,
-	      "shares": [
-		  1487411950538678,
-		  0
-	      ]
-	  },
+          "5": {
+            "poolName": "MYSWAP USDC/USDT",
+            "poolNameFelt": 0,
+            "tokenAAddress": "0x53c91253bc9682c04929ca02ed00b3e423f6710d2ee7e0d5ebb06f3ecf368a8",
+            "tokenAReserves": [1100422297, 0],
+            "tokenBAddress": "0x68f5c6a61780768455de69077e07e89787839bf8166decfbf92b645209c0fb8",
+            "tokenBReserves": [1055691043, 0],
+            "feePercentage": 300,
+            "cfmm": 0,
+            "shares": [1077756279, 0]
+          },
+          "6": {
+            "poolName": "MYSWAP DAI/USDC",
+            "poolNameFelt": 0,
+            "tokenAAddress": "0xda114221cb83fa859dbdb4c44beeaa0bb37c7537ad5ae66fe5e0efd20e6eb3",
+            "tokenAReserves": [1533868016466226000000, 0],
+            "tokenBAddress": "0x53c91253bc9682c04929ca02ed00b3e423f6710d2ee7e0d5ebb06f3ecf368a8",
+            "tokenBReserves": [1442732757, 0],
+            "feePercentage": 300,
+            "cfmm": 0,
+            "shares": [1487411950538678, 0]
+          },
           "7": {
             "poolName": "MYSWAP tETH/ETH",
             "tokenAAddress": "0x42b8f0484674ca266ac5d08e4ac6a3fe65bd3129795def2dca5c34ecc5f96d2",
@@ -252,7 +240,7 @@
             "liqToken": "0x14e644c20bd5f9888033d2093c8ba3334caa0c7d15ed142962a9bebf36cc7e0"
           },
           "numberOfPools": 7
-	},
+        },
         "tokens": [
           "0x49d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7",
           "0x53c91253bc9682c04929ca02ed00b3e423f6710d2ee7e0d5ebb06f3ecf368a8",
@@ -263,6 +251,76 @@
         ]
       }
     ]
+  },
+  "myswap_cl": {
+    "goerli-alpha": {
+      "pools": {
+        "0x6466c43edbe6b3c35b5048efab935d946f2192ed55d9f89cd911eb88a867fb2": {
+          "token0": "0x42b8f0484674ca266ac5d08e4ac6a3fe65bd3129795def2dca5c34ecc5f96d2",
+          "token1": "0x49d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7",
+          "fee": 100
+        },
+        "0x35335db8ab0e033e0cd9fca2478b38cfd6cb6dfa24a37f3f65a66e402da0b2e": {
+          "token0": "0x03e85bfbb8e2a42b7bead9e88e9a1b19dbccf661471061807292120462396ec9",
+          "token1": "0x49d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7",
+          "fee": 100
+        },
+        "0x53eeeef77082cf403f77e79411651234bd4346be100d0d42540e7055f343c2": {
+          "token0": "0x005a643907b9a4bc6a55e9069c4fd5fd1f5c79a22470690f75556c4736e34426",
+          "token1": "0x49d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7",
+          "fee": 10000
+        },
+        "0x5d0d9be14c0c4041857ec9b079b3ceac7a2046ca9f28bf4aa79f92af55e7764": {
+          "token0": "0x005a643907b9a4bc6a55e9069c4fd5fd1f5c79a22470690f75556c4736e34426",
+          "token1": "0x03e85bfbb8e2a42b7bead9e88e9a1b19dbccf661471061807292120462396ec9",
+          "fee": 500
+        }
+      }
+    },
+    "mainnet-alpha": {
+      "pools": {
+        "0x5037c758c9d4d43331ad3eb3b67b1707bb5e9356caeca66fee9039993bd2931": {
+          "token0": "0xda114221cb83fa859dbdb4c44beeaa0bb37c7537ad5ae66fe5e0efd20e6eb3",
+          "token1": "0x49d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7",
+          "fee": 500
+        },
+        "0x71273c5c5780b4be42d9e6567b1b1a6934f43ab8abaf975c0c3da219fc4d040": {
+          "token0": "0x49d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7",
+          "token1": "0x53c91253bc9682c04929ca02ed00b3e423f6710d2ee7e0d5ebb06f3ecf368a8",
+          "fee": 500
+        },
+        "0x30baaaf1b243f6e74c656f98dcb24b98687dcbe783d25f35854148c4c602d41": {
+          "token0": "0x49d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7",
+          "token1": "0x68f5c6a61780768455de69077e07e89787839bf8166decfbf92b645209c0fb8",
+          "fee": 500
+        },
+        "0x9e27aa370ad0003c682f450b3210bdc0d15f9497d97f66ca7097e4f5174eec": {
+          "token0": "0x124aeb495b947201f5fac96fd1138e326ad86195b98df6dec9009158a533b49",
+          "token1": "0x49d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7",
+          "fee": 3000
+        },
+        "0x6466c43edbe6b3c35b5048efab935d946f2192ed55d9f89cd911eb88a867fb2": {
+          "token0": "0x42b8f0484674ca266ac5d08e4ac6a3fe65bd3129795def2dca5c34ecc5f96d2",
+          "token1": "0x49d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7",
+          "fee": 100
+        },
+        "0x2607fa508399dd986c402d1c1c645d00bdec98363120a319f75c6911b46c437": {
+          "token0": "0xda114221cb83fa859dbdb4c44beeaa0bb37c7537ad5ae66fe5e0efd20e6eb3",
+          "token1": "0x53c91253bc9682c04929ca02ed00b3e423f6710d2ee7e0d5ebb06f3ecf368a8",
+          "fee": 100
+        },
+        "0x7c5b7061e9e2e233b6ba9e084c3574c6575495721b18344c251d0234e1a77a3": {
+          "token0": "0x53c91253bc9682c04929ca02ed00b3e423f6710d2ee7e0d5ebb06f3ecf368a8",
+          "token1": "0x68f5c6a61780768455de69077e07e89787839bf8166decfbf92b645209c0fb8",
+          "fee": 100
+        },
+        "0x27ee186f747e25bbbee5875754b8228730cc8f23ddf9492e63900a2b77d8a21": {
+          "token0": "0x3fe2b97c1fd336e750087d68b9b867997fd64a2661ff3ca5a7c771641e8e7ac",
+          "token1": "0x53c91253bc9682c04929ca02ed00b3e423f6710d2ee7e0d5ebb06f3ecf368a8",
+          "fee": 3000
+        }
+      }
+    }
   },
   "known_protocols": {
     "MY_SWAP": {
@@ -506,9 +564,7 @@
     },
     "10K_SWAP": {
       "displayName": "10KSwap",
-      "hostnames": [
-        "10kswap.com"
-      ],
+      "hostnames": ["10kswap.com"],
       "contracts": {
         "10k_swap_address": {
           "addresses": {
@@ -524,10 +580,7 @@
     },
     "STARKNET_ID": {
       "displayName": "Starknet.id",
-      "hostnames": [
-        "goerli.app.starknet.id",
-        "app.starknet.id"
-      ],
+      "hostnames": ["goerli.app.starknet.id", "app.starknet.id"],
       "contracts": {
         "starknet_id_address": {
           "addresses": {
@@ -553,21 +606,19 @@
         },
         "starknet_id_subdomain_address": {
           "addresses": {
-              "goerli-alpha": [
-                  "0x0660b2cd3c93528d4edf790610404414ba3f03e0d45c814d686d628583cb34de"
-              ],
-              "mainnet-alpha": [
-                  "0x3448896d4a0df143f98c9eeccc7e279bf3c2008bda2ad2759f5b20ed263585f"
-              ]
+            "goerli-alpha": [
+              "0x0660b2cd3c93528d4edf790610404414ba3f03e0d45c814d686d628583cb34de"
+            ],
+            "mainnet-alpha": [
+              "0x3448896d4a0df143f98c9eeccc7e279bf3c2008bda2ad2759f5b20ed263585f"
+            ]
           }
         }
       }
     },
     "ALPHA_ROAD": {
       "displayName": "Alpha Road",
-      "hostnames": [
-        "testnet.app.alpharoad.fi"
-      ],
+      "hostnames": ["testnet.app.alpharoad.fi"],
       "contracts": {
         "alpha_road_address": {
           "addresses": {
@@ -581,9 +632,7 @@
     },
     "SITH_SWAP": {
       "displayName": "SithSwap",
-      "hostnames": [
-        "app.sithswap.com"
-      ],
+      "hostnames": ["app.sithswap.com"],
       "contracts": {
         "sith_swap_address": {
           "addresses": {
@@ -597,9 +646,7 @@
     },
     "ZIGZAG": {
       "displayName": "ZigZag",
-      "hostnames": [
-        "mammoth.zigzag.exchange"
-      ],
+      "hostnames": ["mammoth.zigzag.exchange"],
       "contracts": {
         "zigzag_token_address": {
           "addresses": {
@@ -626,14 +673,14 @@
       "displayName": "Orbiter Finance",
       "hostnames": ["www.orbiter.finance"],
       "contracts": {
-          "orbiter_finance_address": {
-              "addresses": {
-                  "goerli-alpha": [],
-                  "mainnet-alpha": [
-                      "0x0173f81c529191726c6e7287e24626fe24760ac44dae2a1f7e02080230f8458b"
-                  ]
-              }
+        "orbiter_finance_address": {
+          "addresses": {
+            "goerli-alpha": [],
+            "mainnet-alpha": [
+              "0x0173f81c529191726c6e7287e24626fe24760ac44dae2a1f7e02080230f8458b"
+            ]
           }
+        }
       }
     }
   },
