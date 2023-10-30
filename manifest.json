@@ -715,7 +715,8 @@
           "10K_SWAP",
           "SITH_SWAP",
           "carmineoptions",
-          "rango"
+          "rango",
+          "nostra"
         ],
         "web": [
           "MY_SWAP",
@@ -735,7 +736,8 @@
           "10K_SWAP",
           "SITH_SWAP",
           "carmineoptions",
-          "rango"
+          "rango",
+          "nostra"
         ],
         "ios": []
       },
