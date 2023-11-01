@@ -700,7 +700,6 @@
         "android": [
           "MY_SWAP",
           "STARKNET_ID",
-          "STARKGATE",
           "realms",
           "STARK_SHEET",
           "GOL2",
@@ -715,13 +714,11 @@
           "10K_SWAP",
           "SITH_SWAP",
           "carmineoptions",
-          "rango",
           "nostra"
         ],
         "web": [
           "MY_SWAP",
           "STARKNET_ID",
-          "STARKGATE",
           "realms",
           "STARK_SHEET",
           "GOL2",
@@ -736,7 +733,6 @@
           "10K_SWAP",
           "SITH_SWAP",
           "carmineoptions",
-          "rango",
           "nostra"
         ],
         "ios": []
@@ -745,7 +741,6 @@
         "android": [
           "MY_SWAP",
           "STARKNET_ID",
-          "STARKGATE",
           "STARK_SHEET",
           "lootsurvivor",
           "realms",
@@ -767,7 +762,6 @@
         "web": [
           "MY_SWAP",
           "STARKNET_ID",
-          "STARKGATE",
           "STARK_SHEET",
           "lootsurvivor",
           "realms",
