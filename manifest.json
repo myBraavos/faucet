@@ -699,7 +699,6 @@
       "mainnet-alpha": {
         "android": [
           "myswapcl",
-          "MY_SWAP",
           "STARKNET_ID",
           "realms",
           "STARK_SHEET",
@@ -715,11 +714,11 @@
           "10K_SWAP",
           "SITH_SWAP",
           "carmineoptions",
-          "nostra"
+          "nostra",
+          "MY_SWAP"
         ],
         "web": [
           "myswapcl",
-          "MY_SWAP",
           "STARKNET_ID",
           "realms",
           "STARK_SHEET",
@@ -735,14 +734,14 @@
           "10K_SWAP",
           "SITH_SWAP",
           "carmineoptions",
-          "nostra"
+          "nostra",
+          "MY_SWAP"
         ],
         "ios": []
       },
       "goerli-alpha": {
         "android": [
           "myswapcl",
-          "MY_SWAP",
           "STARKNET_ID",
           "STARK_SHEET",
           "lootsurvivor",
@@ -760,11 +759,11 @@
           "NINTH",
           "NOSTRA",
           "YAGI_FINANCE",
-          "lotus"
+          "lotus",
+          "MY_SWAP"
         ],
         "web": [
           "myswapcl",
-          "MY_SWAP",
           "STARKNET_ID",
           "STARK_SHEET",
           "lootsurvivor",
@@ -782,7 +781,8 @@
           "NINTH",
           "NOSTRA",
           "YAGI_FINANCE",
-          "lotus"
+          "lotus",
+          "MY_SWAP"
         ],
         "ios": []
       }
