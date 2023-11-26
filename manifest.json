@@ -715,7 +715,8 @@
           "SITH_SWAP",
           "carmineoptions",
           "nostra",
-          "MY_SWAP"
+          "MY_SWAP",
+          "ekubo"
         ],
         "web": [
           "myswapcl",
@@ -735,7 +736,8 @@
           "SITH_SWAP",
           "carmineoptions",
           "nostra",
-          "MY_SWAP"
+          "MY_SWAP",
+          "ekubo"
         ],
         "ios": []
       },
@@ -760,7 +762,8 @@
           "NOSTRA",
           "YAGI_FINANCE",
           "lotus",
-          "MY_SWAP"
+          "MY_SWAP",
+          "ekubo"
         ],
         "web": [
           "myswapcl",
@@ -782,7 +785,8 @@
           "NOSTRA",
           "YAGI_FINANCE",
           "lotus",
-          "MY_SWAP"
+          "MY_SWAP",
+          "ekubo"
         ],
         "ios": []
       }
