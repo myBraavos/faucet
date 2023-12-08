@@ -670,8 +670,8 @@
     }
   },
   "max_fee_mul": {
-    "goerli-alpha": 1.4,
-    "mainnet-alpha": 1,
+    "goerli-alpha": 1,
+    "mainnet-alpha": 1.4,
     "devnet": 1
   },
   "sns": {
