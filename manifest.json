@@ -674,6 +674,10 @@
     "mainnet-alpha": 1,
     "devnet": 1
   },
+  "max_fee_multiplier": {
+    "goerli-alpha": 1,
+    "mainnet-alpha": 1.4
+  },
   "sns": {
     "mainnet-alpha": {
       "starknet_id": "0x6ac597f8116f886fa1c97a23fa4e08299975ecaf6b598873ca6792b9bbfb678",
