@@ -675,7 +675,7 @@
     "devnet": 1
   },
   "max_fee_multiplier": {
-    "goerli-alpha": 1,
+    "goerli-alpha": 1.4,
     "mainnet-alpha": 1
   },
   "sns": {
