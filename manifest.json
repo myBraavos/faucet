@@ -712,6 +712,7 @@
       "mainnet-alpha": {
         "android": [
           "myswapcl",
+          "stakepool",
           "STARKNET_ID",
           "realms",
           "STARK_SHEET",
@@ -733,6 +734,7 @@
         ],
         "web": [
           "myswapcl",
+          "stakepool",
           "STARKNET_ID",
           "realms",
           "STARK_SHEET",
