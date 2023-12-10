@@ -676,7 +676,7 @@
   },
   "max_fee_multiplier": {
     "goerli-alpha": 1,
-    "mainnet-alpha": 1.4
+    "mainnet-alpha": 1
   },
   "sns": {
     "mainnet-alpha": {
