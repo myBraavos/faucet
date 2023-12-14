@@ -86,11 +86,17 @@
   "rpc_nodes_v5": {
     "mainnet-alpha": [
       "https://starknet-mainnet.blastapi.io/fca03e32-0b73-4781-8ff5-c545074eaada/rpc/v0.5",
+      "https://braavos-mainnet-juno-rpc.nethermind.io/rpc/v0_5",
       "https://nd-823-480-386.p2pify.com/65be511239ca22bf74e5b92f0d6ba55c/rpc/v0.5"
     ],
     "goerli-alpha": [
       "https://starknet-testnet.blastapi.io/fca03e32-0b73-4781-8ff5-c545074eaada/rpc/v0.5",
+      "https://braavos-goerli-juno-rpc.nethermind.io/rpc/v0_5",
       "https://nd-186-647-251.p2pify.com/ec0b3148ca3147113f33b581c2240b65/rpc/v0.5"
+    ],
+    "sepolia-alpha": [
+      "https://starknet-sepolia.blastapi.io/b9144b38-1eec-43e0-ad0f-3393a9c11a97/rpc/v0.5",
+      "https://braavos-sepolia-juno-rpc.nethermind.io/rpc/v0_5"
     ]
   },
   "swap": {
