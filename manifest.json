@@ -315,8 +315,8 @@
   },
   "known_protocols": {
     "MY_SWAP": {
-      "displayName": "mySwap",
-      "hostnames": ["www.myswap.xyz"],
+      "displayName": "mySwap v1",
+      "hostnames": ["v1.myswap.xyz"],
       "contracts": {
         "myswap_address_legacy": {
           "addresses": {
@@ -353,7 +353,7 @@
     },
     "MY_SWAP_CL": {
       "displayName": "mySwap CL",
-      "hostnames": ["cl.myswap.xyz"],
+      "hostnames": ["www.myswap.xyz"],
       "contracts": {
         "myswap_cl_nft_address": {
           "addresses": {
