@@ -879,5 +879,8 @@
       "extra": 2250000000000000,
       "buffer": 1.5
     }
+  },
+  "feeder_available": {
+    "mainnet-alpha": true
   }
 }
