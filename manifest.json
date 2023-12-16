@@ -881,6 +881,6 @@
     }
   },
   "feeder_available": {
-    "mainnet-alpha": true
+    "mainnet-alpha": false
   }
 }
