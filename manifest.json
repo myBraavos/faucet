@@ -698,6 +698,9 @@
     "mainnet-alpha": {
       "contract_address": "0x163dd8182a69972b9fc7e95eb0be92b731680212beddfede2eff4ffcfa28bfb"
     },
+    "sepolia-alpha": {
+      "contract_address": "0x163dd8182a69972b9fc7e95eb0be92b731680212beddfede2eff4ffcfa28bfb"
+    },
     "goerli-alpha": {
       "contract_address": "0x163dd8182a69972b9fc7e95eb0be92b731680212beddfede2eff4ffcfa28bfb"
     },
