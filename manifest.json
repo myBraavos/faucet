@@ -75,12 +75,10 @@
   },
   "rpc_nodes_v3": {
     "mainnet-alpha": [
-      "https://starknet-mainnet.blastapi.io/fca03e32-0b73-4781-8ff5-c545074eaada/rpc/v0.4",
-      "https://starknet-mainnet.core.chainstack.com/963932affda4221762bc494029a3a053/rpc/v0.4"
+      "https://starknet-mainnet.blastapi.io/fca03e32-0b73-4781-8ff5-c545074eaada/rpc/v0.4"
     ],
     "goerli-alpha": [
-      "https://starknet-testnet.blastapi.io/fca03e32-0b73-4781-8ff5-c545074eaada/rpc/v0.4",
-      "https://nd-186-647-251.p2pify.com/ec0b3148ca3147113f33b581c2240b65/rpc/v0.4"
+      "https://starknet-testnet.blastapi.io/fca03e32-0b73-4781-8ff5-c545074eaada/rpc/v0.4"
     ]
   },
   "rpc_nodes_v5": {
