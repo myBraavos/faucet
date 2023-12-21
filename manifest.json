@@ -7,6 +7,19 @@
   },
   "mainnet_platforms": ["android", "web", "ios"],
   "recovery_params": {
+    "sepolia-alpha": {
+      "api_url": "https://recovery.braavos.app/pubkey-to-address",
+      "impl_address": {
+        "braavos": [
+          "0x5dec330eebf36c8672b60db4a718d44762d3ae6d1333e553197acb47ee5a062"
+        ],
+        "argent": []
+      },
+      "proxy_hash": {
+        "braavos": [],
+        "argent": []
+      }
+    },
     "goerli-alpha": {
       "api_url": "https://recovery.braavos.app/pubkey-to-address",
       "impl_address": {
@@ -79,6 +92,9 @@
     ],
     "goerli-alpha": [
       "https://starknet-testnet.blastapi.io/fca03e32-0b73-4781-8ff5-c545074eaada/rpc/v0.4"
+    ],
+    "sepolia-alpha": [
+      "https://starknet-sepolia.blastapi.io/fca03e32-0b73-4781-8ff5-c545074eaada/rpc/v0.4"
     ]
   },
   "rpc_nodes_v5": {
@@ -675,11 +691,13 @@
   },
   "max_fee_mul": {
     "goerli-alpha": 1,
+    "sepolia-alpha": 1,
     "mainnet-alpha": 1,
     "devnet": 1
   },
   "max_fee_multiplier": {
     "goerli-alpha": 1,
+    "sepolia-alpha": 1,
     "mainnet-alpha": 1
   },
   "sns": {
@@ -816,6 +834,9 @@
   },
   "secp256r1_gas": {
     "goerli-alpha": {
+      "58256001704608589532901680": 4500
+    },
+    "sepolia-alpha": {
       "58256001704608589532901680": 4500
     },
     "mainnet-alpha": {
