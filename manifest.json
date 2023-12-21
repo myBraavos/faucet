@@ -88,7 +88,8 @@
   },
   "rpc_nodes_v3": {
     "mainnet-alpha": [
-      "https://starknet-mainnet.blastapi.io/fca03e32-0b73-4781-8ff5-c545074eaada/rpc/v0.4"
+      "https://starknet-mainnet.blastapi.io/fca03e32-0b73-4781-8ff5-c545074eaada/rpc/v0.4",
+      "https://braavos-mainnet-juno-rpc.nethermind.io/v0_4"
     ],
     "goerli-alpha": [
       "https://starknet-testnet.blastapi.io/fca03e32-0b73-4781-8ff5-c545074eaada/rpc/v0.4"
