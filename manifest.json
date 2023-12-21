@@ -904,6 +904,8 @@
     }
   },
   "feeder_available": {
-    "mainnet-alpha": false
+    "mainnet-alpha": false,
+    "goerli-alpha": false,
+    "sepolia-alpha": false
   }
 }
