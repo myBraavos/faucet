@@ -905,5 +905,6 @@
     "mainnet-alpha": false,
     "goerli-alpha": false,
     "sepolia-alpha": false
-  }
+  },
+  "wrapped_2023": true
 }
