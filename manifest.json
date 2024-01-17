@@ -1,14 +1,12 @@
 {
-  "mainnet": false,
-  "enforce_fees": true,
-  "mainnet_min_ver": {
-    "contract_min_ver": "0x1010102",
-    "extension_min_ver": "2.14.1"
-  },
-  "mainnet_platforms": ["android", "web", "ios"],
   "recovery_params": {
     "sepolia-alpha": {
       "api_url": "https://recovery.braavos.app/pubkey-to-address",
+      "impl_address_cairo2": {
+        "braavos": [
+          "0x163fbad6b73c44b6d9176c00eb5a506b47e647f85e284c7f459d560757b6993"
+        ]
+      },
       "impl_address": {
         "braavos": [
           "0x5dec330eebf36c8672b60db4a718d44762d3ae6d1333e553197acb47ee5a062"
@@ -22,6 +20,11 @@
     },
     "goerli-alpha": {
       "api_url": "https://recovery.braavos.app/pubkey-to-address",
+      "impl_address_cairo2": {
+        "braavos": [
+          "0x163fbad6b73c44b6d9176c00eb5a506b47e647f85e284c7f459d560757b6993"
+        ]
+      },
       "impl_address": {
         "braavos": [
           "0x69577e6756a99b584b5d1ce8e60650ae33b6e2b13541783458268f07da6b38a",
@@ -56,6 +59,11 @@
     },
     "mainnet-alpha": {
       "api_url": "https://recovery.braavos.app/pubkey-to-address",
+      "impl_address_cairo2": {
+        "braavos": [
+          "0x163fbad6b73c44b6d9176c00eb5a506b47e647f85e284c7f459d560757b6993"
+        ]
+      },
       "impl_address": {
         "braavos": [
           "0x69577e6756a99b584b5d1ce8e60650ae33b6e2b13541783458268f07da6b38a",
@@ -85,18 +93,6 @@
         "argent": ["0x25ec026985a3bf9d0cc1fe17326b245dfdc3ff89b8fde106542a3ea56c5a918"]
       }
     }
-  },
-  "rpc_nodes_v3": {
-    "mainnet-alpha": [
-      "https://starknet-mainnet.blastapi.io/fca03e32-0b73-4781-8ff5-c545074eaada/rpc/v0.4",
-      "https://braavos-mainnet-juno-rpc.nethermind.io/v0_4"
-    ],
-    "goerli-alpha": [
-      "https://starknet-testnet.blastapi.io/fca03e32-0b73-4781-8ff5-c545074eaada/rpc/v0.4"
-    ],
-    "sepolia-alpha": [
-      "https://starknet-sepolia.blastapi.io/fca03e32-0b73-4781-8ff5-c545074eaada/rpc/v0.4"
-    ]
   },
   "rpc_nodes_v5": {
     "mainnet-alpha": [
@@ -688,12 +684,6 @@
       }
     }
   },
-  "max_fee_mul": {
-    "goerli-alpha": 1,
-    "sepolia-alpha": 1,
-    "mainnet-alpha": 1,
-    "devnet": 1
-  },
   "max_fee_multiplier": {
     "goerli-alpha": 1,
     "sepolia-alpha": 1,
@@ -902,11 +892,6 @@
       "extra": 2250000000000000,
       "buffer": 1.5
     }
-  },
-  "feeder_available": {
-    "mainnet-alpha": false,
-    "goerli-alpha": false,
-    "sepolia-alpha": false
   },
   "wrapped_2023": true
 }
