@@ -9,7 +9,8 @@
       },
       "impl_address": {
         "braavos": [
-          "0x5dec330eebf36c8672b60db4a718d44762d3ae6d1333e553197acb47ee5a062"
+          "0x5dec330eebf36c8672b60db4a718d44762d3ae6d1333e553197acb47ee5a062",
+          "0x5aa23d5bb71ddaa783da7ea79d405315bafa7cf0387a74f4593578c3e9e6570"
         ],
         "argent": []
       },
@@ -37,6 +38,7 @@
           "0x2fe77380d0e5919191210a0374ace48f785e6cda2d7feeedf492e0a5e7e61a8",
           "0x2c2b8f559e1221468140ad7b2352b1a5be32660d0bf1a3ae3a054a4ec5254e4",
           "0x5dec330eebf36c8672b60db4a718d44762d3ae6d1333e553197acb47ee5a062",
+          "0x5aa23d5bb71ddaa783da7ea79d405315bafa7cf0387a74f4593578c3e9e6570",
           "0x03e083825add177a5998468236b54c7332f4a80640fc01dbe5f813b12904ed3c"
         ],
         "argent": ["0x3e327de1c40540b98d05cbcb13552008e36f0ec8d61d46956d2f9752c294328"]
@@ -44,17 +46,6 @@
       "proxy_hash": {
         "braavos": [],
         "argent": ["0x25ec026985a3bf9d0cc1fe17326b245dfdc3ff89b8fde106542a3ea56c5a918"]
-      }
-    },
-    "goerli-alpha-2": {
-      "api_url": "https://recovery.braavos.app/pubkey-to-address",
-      "impl_address": {
-        "braavos": [],
-        "argent": []
-      },
-      "proxy_hash": {
-        "braavos": [],
-        "argent": []
       }
     },
     "mainnet-alpha": {
@@ -69,6 +60,7 @@
           "0x69577e6756a99b584b5d1ce8e60650ae33b6e2b13541783458268f07da6b38a",
           "0x3ae692aaf1ded26a0b58cf42490f757563850acea887ed57b4894fee8279063",
           "0x5dec330eebf36c8672b60db4a718d44762d3ae6d1333e553197acb47ee5a062",
+          "0x5aa23d5bb71ddaa783da7ea79d405315bafa7cf0387a74f4593578c3e9e6570",
           "0x222f474bc7de126c517bf7954cb421932f4fa16de4666971df5b1154ea0ed37",
           "0x2c2b8f559e1221468140ad7b2352b1a5be32660d0bf1a3ae3a054a4ec5254e4",
           "0x03e083825add177a5998468236b54c7332f4a80640fc01dbe5f813b12904ed3c"
