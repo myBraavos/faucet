@@ -884,5 +884,6 @@
       "extra": 2250000000000000,
       "buffer": 1.5
     }
-  }
+  },
+  "disable_cairo2": true
 }
