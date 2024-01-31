@@ -737,7 +737,8 @@
           "carmineoptions",
           "nostra",
           "MY_SWAP",
-          "ekubo"
+          "ekubo",
+          "hashstack"
         ],
         "web": [
           "myswapcl",
@@ -760,7 +761,8 @@
           "carmineoptions",
           "nostra",
           "MY_SWAP",
-          "ekubo"
+          "ekubo",
+          "hashstack"
         ],
         "ios": []
       },
