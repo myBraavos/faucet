@@ -4,7 +4,7 @@
       "api_url": "https://recovery.braavos.app/pubkey-to-address",
       "impl_address_cairo2": {
         "braavos": [
-          "0x5ff32ac836ea9daee2d7ac888ccb06167e6cdc3109c9e97ac93889b681e953a"
+          "0x7eafdd08ebd6dffa5e869f6059079d9e9ca2dd0a87b1539e412988259486dc1"
         ]
       },
       "impl_address": {
@@ -23,7 +23,7 @@
       "api_url": "https://recovery.braavos.app/pubkey-to-address",
       "impl_address_cairo2": {
         "braavos": [
-          "0x5ff32ac836ea9daee2d7ac888ccb06167e6cdc3109c9e97ac93889b681e953a"
+          "0x7eafdd08ebd6dffa5e869f6059079d9e9ca2dd0a87b1539e412988259486dc1"
         ]
       },
       "impl_address": {
@@ -52,7 +52,7 @@
       "api_url": "https://recovery.braavos.app/pubkey-to-address",
       "impl_address_cairo2": {
         "braavos": [
-          "0x5ff32ac836ea9daee2d7ac888ccb06167e6cdc3109c9e97ac93889b681e953a"
+          "0x7eafdd08ebd6dffa5e869f6059079d9e9ca2dd0a87b1539e412988259486dc1"
         ]
       },
       "impl_address": {
