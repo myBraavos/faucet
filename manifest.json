@@ -695,6 +695,25 @@
     "sepolia-alpha": 1,
     "mainnet-alpha": 1
   },
+  "v1_fee_multiplier": {
+    "goerli-alpha": 1,
+    "sepolia-alpha": 1,
+    "mainnet-alpha": 1
+  },
+  "v3_fee_multiplier": {
+    "goerli-alpha": {
+      "amount": 1.3,
+      "price": 1
+    },
+    "sepolia-alpha": {
+      "amount": 1.3,
+      "price": 1
+    },
+    "mainnet-alpha": {
+      "amount": 1.3,
+      "price": 1
+    }
+  },
   "sns": {
     "mainnet-alpha": {
       "starknet_id": "0x6ac597f8116f886fa1c97a23fa4e08299975ecaf6b598873ca6792b9bbfb678",
