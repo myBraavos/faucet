@@ -88,24 +88,30 @@
   },
   "rpc_nodes_v5": {
     "mainnet-alpha": [
-      "https://braavos-mainnet-juno-rpc.nethermind.io/rpc/v0_5"
+      "https://braavos-mainnet-juno-rpc.nethermind.io/rpc/v0_5",
+      "https://starknet-mainnet.blastapi.io/20b6403b-2d33-4445-b1cd-731023e07efb/rpc/v0.5"
     ],
     "goerli-alpha": [
-      "https://braavos-goerli-juno-rpc.nethermind.io/rpc/v0_5"
+      "https://braavos-goerli-juno-rpc.nethermind.io/rpc/v0_5",
+      "https://starknet-testnet.blastapi.io/20b6403b-2d33-4445-b1cd-731023e07efb/rpc/v0.5"
     ],
     "sepolia-alpha": [
-      "https://braavos-sepolia-juno-rpc.nethermind.io/rpc/v0_5"
+      "https://braavos-sepolia-juno-rpc.nethermind.io/rpc/v0_5",
+      "https://starknet-sepolia.blastapi.io/20b6403b-2d33-4445-b1cd-731023e07efb/rpc/v0.5"
     ]
   },
   "rpc_nodes_v6": {
     "mainnet-alpha": [
-      "https://braavos-mainnet-juno-rpc.nethermind.io/rpc/v0_6"
+      "https://braavos-mainnet-juno-rpc.nethermind.io/rpc/v0_6",
+      "https://starknet-mainnet.blastapi.io/20b6403b-2d33-4445-b1cd-731023e07efb/rpc/v0_6"
     ],
     "goerli-alpha": [
-      "https://braavos-goerli-juno-rpc.nethermind.io/rpc/v0_6"
+      "https://braavos-goerli-juno-rpc.nethermind.io/rpc/v0_6",
+      "https://starknet-testnet.blastapi.io/20b6403b-2d33-4445-b1cd-731023e07efb/rpc/v0_6"
     ],
     "sepolia-alpha": [
-      "https://braavos-sepolia-juno-rpc.nethermind.io/rpc/v0_6"
+      "https://braavos-sepolia-juno-rpc.nethermind.io/rpc/v0_6",
+      "https://starknet-sepolia.blastapi.io/20b6403b-2d33-4445-b1cd-731023e07efb/rpc/v0_6"
     ]
   },
   "swap": {
